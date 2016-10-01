@@ -4,7 +4,7 @@
  <title>Faces of Fieldwork</title>
  <link href="/" rel="self"/>
  <link href=""/>
- <updated>2016-10-01T14:18:04-04:00</updated>
+ <updated>2016-10-01T15:44:00-04:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -13,12 +13,18 @@
 
  
  <entry>
-   <title>Welcome and Getting Started</title>
-   <link href="/2016/09/19/welcome.html"/>
-   <updated>2016-09-19T16:10:00-04:00</updated>
-   <id>/2016/09/19/welcome</id>
-   <content type="html">&lt;p&gt;Welcome to this jekyll theme!&lt;br /&gt;
-How to start and set it up? &lt;a href=&quot;http://himsel.me/2016/09/19/use-my-jekyll-theme.html&quot;&gt;Read the Article about it!&lt;/a&gt;&lt;/p&gt;
+   <title>A very long drive in Kenya</title>
+   <link href="/2016/10/01/very-long-drive-in-kenya.html"/>
+   <updated>2016-10-01T00:00:00-04:00</updated>
+   <id>/2016/10/01/very-long-drive-in-kenya</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/barrkenyaface.jpg&quot; alt=&quot;barrkenya&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We had been camping in the desert for about 6 weeks doing paleontological fieldwork, and we were driving back to Nairobi, Kenya.
+The drive had been plenty rough on the way up, but 6 weeks later the Land Rovers were in worse shape and we had to stop to fix a lot of things.&lt;/p&gt;
+
+&lt;p&gt;This photo was taken perhaps 8 hours into what turned into a nearly 20 hour day.  I was tired and hungry and my beard was just unbelievably dusty.
+Turns out you can style your beard in fun ways when it is like this!&lt;/p&gt;
+
 </content>
  </entry>
  
