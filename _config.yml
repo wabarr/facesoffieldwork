@@ -1,0 +1,28 @@
+title: "Faces of Fieldwork"
+description: "Stories of getting your boots muddy (and sometimes your face)"
+about: "Stories of getting your boots muddy (and sometimes your face)"
+location: "All around the world"
+email: 
+baseurl: ""
+url: "facesoffieldwork.com" # replace by your site's url
+twitter_username: your-name
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# language settings
+isolang: en
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: "Projects"
+posts_btn: "Posts"
+name_badge: "an article by"
+rss_badge: "Subscribe feed!"
+
+# build settings
+markdown: kramdown
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md

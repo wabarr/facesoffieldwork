@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faces of Fieldwork</title>
+    <description>Stories of getting your boots muddy (and sometimes your face)</description>
+    <link>facesoffieldwork.com/</link>
+    <atom:link href="facesoffieldwork.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 01 Oct 2016 14:18:04 -0400</pubDate>
+    <lastBuildDate>Sat, 01 Oct 2016 14:18:04 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome and Getting Started</title>
+        <description>&lt;p&gt;Welcome to this jekyll theme!&lt;br /&gt;
+How to start and set it up? &lt;a href=&quot;http://himsel.me/2016/09/19/use-my-jekyll-theme.html&quot;&gt;Read the Article about it!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Sep 2016 16:10:00 -0400</pubDate>
+        <link>facesoffieldwork.com/2016/09/19/welcome.html</link>
+        <guid isPermaLink="true">facesoffieldwork.com/2016/09/19/welcome.html</guid>
+        
+        <category>example</category>
+        
+        <category>welcome</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
