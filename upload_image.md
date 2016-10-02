@@ -8,7 +8,8 @@ layout: upload
 		$("#instructions").hide();
 		$("#uploadprogress").hide()
 		$("#expandinstructions").click(function(e){
-			$("#instructions").show();
+			$("#instructions").toggle();
+			$("#expandinstructions").toggleClass('fa-plus-circle fa-minus-circle')
 		});
 		$( "#submit-button" ).click(function(e) {
 			$("#uploadprogress").show()
@@ -47,7 +48,7 @@ layout: upload
 	});
 </script>
 
-<div id="failureupload"></div>
+<div id="failureupload" class="error"></div>
 <div id="successupload"></div>
 
 <div class="my-text-body">
@@ -76,7 +77,7 @@ layout: upload
 	</form>
 </div>
 
-What happens to my image? <i class="fa fa-plus" aria-hidden="true" id="expandinstructions"></i>
+What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="expandinstructions"></i>
 <div id="instructions">
 
 <p> The image will automatically be hosted on <a href="https://help.imgur.com/hc/en-us/articles/201746817-Post-privacy">imgur.com</a>. The site imgur.com is only used to host the photo on the internet. The image you upload is accessible through a direct link, and is hosted anonymously on the imgur site. It is not viewable in public imgur galleries or imgur searches.</p>
