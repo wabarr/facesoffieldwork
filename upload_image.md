@@ -74,7 +74,7 @@ layout: page
 What happens to my image? <i class="fa fa-plus" aria-hidden="true" id="expandinstructions"></i>
 <div id="instructions">
 
-<p> The image will automatically be hosted on <a href="https://help.imgur.com/hc/en-us/articles/201746817-Post-privacy">imgur.com</a>. The image will not be publicly searchable. imgur.com is only used to host the photo on the internet. The image is only accessible through a direct link.</p>
+<p> The image will automatically be hosted on <a href="https://help.imgur.com/hc/en-us/articles/201746817-Post-privacy">imgur.com</a>. The site imgur.com is only used to host the photo on the internet. The image you upload is accessible through a direct link, and is hosted anonymously on the imgur site. It is not viewable in public imgur galleries or imgur searches.</p>
 
 <p>Note: by uploading your image here you indicate that either you took the photo personally or that you hold the copyright to the image and that you wish to share it publicly.</p>
 
