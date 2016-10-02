@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: upload
 ---
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script>
@@ -50,12 +50,17 @@ layout: page
 <div id="failureupload"></div>
 <div id="successupload"></div>
 
-<form id="imguploadform" method="POST" enctype="multipart/form-data">
-	<input type="file" id="img-input" name="image" accept="image/*">
-	<input type="button" id="submit-button" value="upload image">
-	<img id="uploadprogress" src="images/upload_progress.gif">
-</form>
-
+<div class="my-text-body">
+	<form id="imguploadform" method="POST" enctype="multipart/form-data">
+		<div class="row">
+			<input type="file" id="img-input" name="image" accept="image/*">
+		</div>
+		<div class="row">
+			<input type="button" id="submit-button" value="upload image">
+		</div>
+		<img id="uploadprogress" src="images/upload_progress.gif">
+	</form>
+</div>
 <div id="formspree">
 	<form action="https://formspree.io/fof.contribute@gmail.com" method="POST">
 		<input type="email" name="_replyto" placeholder="Your email address">
