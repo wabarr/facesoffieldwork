@@ -6,10 +6,12 @@ layout: page
 	$( document ).ready(function() {
 		$("#formspree").hide();
 		$("#instructions").hide();
+		$("#uploadprogress").hide()
 		$("#expandinstructions").click(function(e){
 			$("#instructions").show();
 		});
 		$( "#submit-button" ).click(function(e) {
+			$("#uploadprogress").show()
 			var formData = new FormData();
 			var imageData = $("#img-input")[0].files[0];
 			formData.append("image",imageData);
@@ -22,6 +24,7 @@ layout: page
 			  },
 			  data: formData,
 			  success: function(response) {
+				  $("#uploadprogress").hide()
 				  $("#failureupload").hide();
 				  $("#instructions").hide();
 				  $("#imguploadform").hide();
@@ -32,6 +35,7 @@ layout: page
 				  
 			  },
 			  error: function(response){
+				  $("#uploadprogress").hide()
 			  	  $("#failureupload").html("something went wrong...maybe you should try again?");
 				  //window.location.href="upload_image.html";
 			  },
@@ -49,6 +53,7 @@ layout: page
 <form id="imguploadform" method="POST" enctype="multipart/form-data">
 	<input type="file" id="img-input" name="image" accept="image/*">
 	<input type="button" id="submit-button" value="upload image">
+	<img id="uploadprogress" src="images/upload_progress.gif">
 </form>
 
 <div id="formspree">
