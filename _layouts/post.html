@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="left-align" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="center-align" itemscope itemtype="http://schema.org/BlogPosting">
 
   <!-- <h2 class="my-mini-heading" itemprop="name headline">{{ page.title }}<br>
     <span class="my-mini-heading-sub">
@@ -16,12 +16,12 @@ layout: default
 
   <p class="center-align my-text-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
     {% if page.author %}
-      <span itemprop="name">{{ site.name_badge }} {{ page.author }}</span>
+      <span itemprop="name">contributed by {{ page.author }}</span>
     {% endif %}
     <br>
-    {% if page.tags %}
-      <i class="fa fa-tags" aria-hidden="true"></i>
-      {% for tag in page.tags %}
+    {% if page.location %}
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      {% for tag in page.location %}
         <span class="my-tag">{{ tag }}</span>&ensp;
       {% endfor %}
     {% endif %}
