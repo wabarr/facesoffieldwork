@@ -13,3 +13,11 @@ input[type="submit"], input[type="button"]{
 a {
 	color:#4db6ac;
 }
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}

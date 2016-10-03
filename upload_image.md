@@ -4,15 +4,12 @@ layout: upload
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script>
 	$( document ).ready(function() {
-		$("#formspree").hide();
-		$("#instructions").hide();
-		$("#uploadprogress").hide()
 		$("#expandinstructions").click(function(e){
-			$("#instructions").toggle();
+			$("#instructions").toggleClass("visible hidden");
 			$("#expandinstructions").toggleClass('fa-plus-circle fa-minus-circle')
 		});
 		$( "#submit-button" ).click(function(e) {
-			$("#uploadprogress").show()
+			$("#uploadprogress").toggleClass("visible hidden");
 			var formData = new FormData();
 			var imageData = $("#img-input")[0].files[0];
 			formData.append("image",imageData);
@@ -25,18 +22,19 @@ layout: upload
 			  },
 			  data: formData,
 			  success: function(response) {
-				  $("#uploadprogress").hide()
-				  $("#failureupload").hide();
-				  $("#instructions").hide();
-				  $("#imguploadform").hide();
+				  $("#uploadprogress").toggleClass("visible hidden");
+				  $("#failureupload").remove();
+				  $("#whathappens").remove();
+				  $("#instructions").remove();
+				  $("#imguploadform").remove();
 				  $("#successupload").html("<img src=" + response.data.link + "></a>");
-				  $("#formspree").show();
+				  $("#formspree").removeClass("hidden").addClass("visible");
 				  $("#imgurlink").val(response.data.link);
 				  $("#imgurdelete").val(response.data.deletehash);
 				  
 			  },
 			  error: function(response){
-				  $("#uploadprogress").hide()
+				  $("#uploadprogress").removeClass("visible").addClass("hidden");
 			  	  $("#failureupload").html("something went wrong...maybe you should try again?");
 				  //window.location.href="upload_image.html";
 			  },
@@ -59,10 +57,25 @@ layout: upload
 		<div class="row">
 			<input type="button" id="submit-button" value="upload image">
 		</div>
-		<img id="uploadprogress" src="images/upload_progress.gif">
+		<div class="row" class="hidden" id="uploadprogress">
+			<i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>
+		</div>
 	</form>
 </div>
-<div id="formspree">
+
+<div id="whathappens">
+What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="expandinstructions"></i>
+</div>
+
+<div id="instructions" class="hidden">
+
+ <p> The image will automatically be hosted on <a href="https://help.imgur.com/hc/en-us/articles/201746817-Post-privacy">imgur.com</a>. The site imgur.com is only used to host the photo on the internet. The image you upload is accessible through a direct link, and is hosted anonymously on the imgur site. It is not viewable in public imgur galleries or imgur searches.</p>
+
+ <p>Note: by uploading your image here you indicate that either you took the photo personally or that you hold the copyright to the image and that you wish to share it publicly.</p>
+
+</div>
+
+<div id="formspree" class="hidden">
 	<form action="https://formspree.io/fof.contribute@gmail.com" method="POST">
 		<input type="email" name="_replyto" placeholder="Your email address">
 		<input type="text" name="submittername" placeholder="Your name">
@@ -76,14 +89,3 @@ layout: upload
 	    <input type="submit" value="Tell us your story">
 	</form>
 </div>
-
-What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="expandinstructions"></i>
-<div id="instructions">
-
-<p> The image will automatically be hosted on <a href="https://help.imgur.com/hc/en-us/articles/201746817-Post-privacy">imgur.com</a>. The site imgur.com is only used to host the photo on the internet. The image you upload is accessible through a direct link, and is hosted anonymously on the imgur site. It is not viewable in public imgur galleries or imgur searches.</p>
-
-<p>Note: by uploading your image here you indicate that either you took the photo personally or that you hold the copyright to the image and that you wish to share it publicly.</p>
-
-</div>
-
-
