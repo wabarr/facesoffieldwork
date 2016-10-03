@@ -6,10 +6,6 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="robots" content="index,follow">
-    {% if page.}
-    {% if page.author %}
-        <meta name="author" content="{{ page.author }}">
-    {% endif %}
     <meta itemprop="name" content="{{ site.title }}">
 
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
