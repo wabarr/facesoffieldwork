@@ -4,6 +4,7 @@ about: "Researchers doing fieldwork and getting their boots dirty (and sometimes
 location: "All around the world"
 email: "fof.contribute@gmail.com"
 contributeURL: "upload_image.html"
+default_share_image: /images/default_share.jpg
 baseurl: ""
 url: "facesoffieldwork.com" # replace by your site's url
 twitter_username: facesfieldwork
