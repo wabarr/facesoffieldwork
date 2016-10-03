@@ -52,7 +52,7 @@ layout: upload
 <div class="my-text-body">
 	<form id="imguploadform" method="POST" enctype="multipart/form-data">
 		<div class="row">
-			<input type="file" id="img-input" name="image" accept="image/*" style="padding-left:100px">
+			<input type="file" id="img-input" name="image" accept="image/*" style="padding-left:110px">
 		</div>
 		<div class="row">
 			<input type="button" id="submit-button" value="upload image">
