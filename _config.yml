@@ -4,7 +4,7 @@ about: "Stories of researchers getting dusty and dirty doing fieldwork"
 location: "All around the world"
 email: "fof.contribute@gmail.com"
 contributeURL: "upload_image.html"
-default_share_image: /images/default_share.jpg
+default_share_image: "http://i.imgur.com/7lcUefbh.jpg"
 baseurl: ""
 url: "http://facesoffieldwork.com" # replace by your site's url
 twitter_username: facesfieldwork
