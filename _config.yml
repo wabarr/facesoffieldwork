@@ -10,7 +10,7 @@ url: "facesoffieldwork.com" # replace by your site's url
 twitter_username: facesfieldwork
 
 # google analytics tracking code, please change the value
-g_analytics: ""
+g_analytics: "UA-85189653-1"
 
 # language settings
 isolang: en
