@@ -5,6 +5,6 @@ layout: splash
 {% for post in site.posts %}
 	<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->
 	<a href="{{post.url}}"><img src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a>
-	<a href="{{post.url}}"> {{post.title}} </a>
+	<a href="{{post.url}}"> {{post.title}}... </a>
 	<br><br><br><br>
 {% endfor %}
