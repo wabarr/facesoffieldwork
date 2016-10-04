@@ -10,7 +10,7 @@
 
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:type" content="website" />
-	<meta property="og:app_id" content="{{site.FacebookAppID}}" />
+	<meta property="fb:app_id" content="{{site.FacebookAppID}}" />
     <meta property="og:title" content="{% if page.title %}FOF - {{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:image" content={% if page.imgurfilepath %}"{{page.imgurfilepath | replace: ".jpg", "h.jpg"}}"{%else%}"{{site.default_share_image}}"{%endif%} />
