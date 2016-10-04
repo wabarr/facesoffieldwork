@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Don't Lick the Pottery"
+title:  "Don't Bite the Pottery"
 date:   2016-10-04
 location: "Lothagam, Kenya"
 author: Eve
