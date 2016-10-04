@@ -6,7 +6,7 @@ email: "fof.contribute@gmail.com"
 contributeURL: "upload_image.html"
 default_share_image: /images/default_share.jpg
 baseurl: ""
-url: "facesoffieldwork.com" # replace by your site's url
+url: "http://facesoffieldwork.com" # replace by your site's url
 twitter_username: facesfieldwork
 
 # google analytics tracking code, please change the value
