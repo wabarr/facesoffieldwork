@@ -1,5 +1,5 @@
 ---
-layout: upload
+layout: default
 ---
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script>
@@ -46,6 +46,13 @@ layout: upload
 	});
 </script>
 
+<div class="my-text-body">
+<h3>Share your story</h3>
+
+<p>Upload your photo to share your story with Faces of Fieldwork. You can share your story after uploading the photo. The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
+
+
+
 <div id="failureupload" class="error"></div>
 <div id="successupload"></div>
 
@@ -88,4 +95,5 @@ What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="ex
 		<input type="hidden" name="_next" value="thanks.html" />
 	    <input type="submit" value="Tell us your story">
 	</form>
+</div>
 </div>

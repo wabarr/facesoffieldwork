@@ -21,3 +21,12 @@ a {
 .visible {
 	visibility: visible;
 }
+
+.my-text-body a:hover{
+	background-color:rgba(0,0,0,0.1);
+	border:none;
+}
+
+.padded-title {
+	padding:3px 10px 3px 10px;
+}

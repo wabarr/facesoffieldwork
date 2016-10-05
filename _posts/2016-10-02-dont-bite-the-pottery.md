@@ -8,8 +8,6 @@ imgurfilepath: http://i.imgur.com/RiMe1lu.jpg
 tags: ["paleoanthropology", "paleontology", "archaeology"]
 ---
 
-![evepottery]({{ page.imgurfilepath }})
-
 Going out into the field for several weeks can be as terrifying as it is exhilarating. Many researchers, whether it is their first time or fifteenth time, bring pieces of home with them to make the time pass easier. The first time I was in the field, I wore a University of Delaware t-shirt (my best friend's alma mater) until there wasn't a patch of white left. My head was always covered by my late grandfather's Tilley hat, which didn't fit me quite right and always threatened to fly off on windy days. 
 
 Photographs, your favorite hot sauce, a tube of red lipstick --- pieces of home can help keep you grounded when things get hard. And when you share these things with others, it helps to build friendships that last way after the field season is over. 

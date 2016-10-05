@@ -2,9 +2,13 @@
 layout: splash
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:4 %}
 	<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->
-	<a href="{{post.url}}"><img src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a>
-	<a href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}}... </a>
-	<br><br><br><br>
+	<div class="row"><a href="{{post.url}}"><img src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
+	<a class="padded-title" href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}} </a>
+	<br><br><br>
 {% endfor %}
+
+<div class="center-align">
+	<a href="list_view.html" class="waves-effect waves-teal btn-flat btn-large">See All Faces <i class="fa fa-list"></i></a>
+</div>
