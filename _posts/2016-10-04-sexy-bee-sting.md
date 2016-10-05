@@ -2,7 +2,7 @@
 layout: post
 title:  "A sexy bee sting"
 date:   2016-10-04
-location: Colombia
+location: Tiputini Biodiversity Station, Ecuador
 author: Laura
 imgurfilepath: http://i.imgur.com/D8YnJdD.jpg
 twitterhandle: laabondano
