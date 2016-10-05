@@ -85,6 +85,7 @@ What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="ex
 <div id="formspree" class="hidden">
 	<form action="https://formspree.io/fof.contribute@gmail.com" method="POST">
 		<input type="email" name="_replyto" placeholder="Your email address">
+		<input type="text" name="twitterhandle" placeholder="Your twitter handle">
 		<input type="text" name="submittername" placeholder="Your name">
 		<input type="text" name="location" placeholder="Where was the photo taken?">
 	    <textarea style="width: 100%; height: 150px;" name="the story" placeholder="What's the story of this photo"></textarea>
