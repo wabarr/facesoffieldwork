@@ -5,6 +5,7 @@ date:   2016-10-04
 location: "Lothagam, Kenya"
 author: Eve
 imgurfilepath: http://i.imgur.com/RiMe1lu.jpg
+twitterhandle: evekboyle
 tags: ["paleoanthropology", "paleontology", "archaeology"]
 ---
 

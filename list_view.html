@@ -4,5 +4,5 @@ layout: splash
 
 {% for post in site.posts %}
 	<div class="row"><a href="{{post.url}}"><img src={{post.imgurfilepath | replace: ".jpg", "s.jpg"}}></a><br>
-	<a href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}}</a></div>
+	<a class="padded-title " href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}}</a></div>
 {% endfor %}

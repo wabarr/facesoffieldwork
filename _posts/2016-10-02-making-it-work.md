@@ -5,6 +5,7 @@ date:   2016-10-02
 location: Ethiopia
 author: Andrew
 imgurfilepath: http://i.imgur.com/J6HPKUo.jpg
+twitterhandle: wabarree
 tags: ["paleoanthropology", "paleontology"]
 ---
 
