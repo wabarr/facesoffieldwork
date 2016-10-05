@@ -6,3 +6,4 @@ layout: splash
 	<div class="row"><a href="{{post.url}}"><img src={{post.imgurfilepath | replace: ".jpg", "s.jpg"}}></a><br>
 	<a class="padded-title " href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}}</a></div>
 {% endfor %}
+{% include facebook_like.html %}
