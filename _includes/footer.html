@@ -4,10 +4,29 @@
 		<a href="/about.html" class="waves-effect waves-teal btn-flat"><i class="fa fa-question"></i></a>
 		<a href="/{{site.contributeURL}}" class="waves-effect waves-teal btn-flat"><i class="fa fa-edit"></i></a>
 		<a href="https://twitter.com/{{ site.twitter_username }}"class="waves-effect waves-teal btn-flat my-twitter-link"><i class="fa fa-twitter"></i></a>
+		<a href="https://facebook.com/facesoffieldwork"class="waves-effect waves-teal btn-flat"><i class="fa fa-facebook"></i></a>
     </p>
 </footer>
 <script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/styles/mlz/mlz.js" | prepend: site.baseurl }}"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 
 <!-- Facebook -->
 <div id="fb-root"></div>
