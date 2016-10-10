@@ -3,7 +3,7 @@ description: "Stories of researchers getting dusty and dirty doing fieldwork"
 about: "Stories of researchers getting dusty and dirty doing fieldwork"
 location: "All around the world"
 email: "fof.contribute@gmail.com"
-contributeURL: "upload_image.html"
+contributeURL: "/upload_image/"
 default_share_image: "http://i.imgur.com/Cg2eBB3.jpg"
 baseurl: ""
 FacebookAppID: 1616633811967151
