@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="{% if site.twitter_username %}@{{ site.twitter_username }}{% else %} "fieldworkfaces" {% endif %}" />
     <meta name="twitter:title" content="{% if page.title %}FOF - {{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{{ site.description }}" />
-    <meta name="twitter:image" content={% if page.imgurfilepath %}"{{page.imgurfilepath | replace: ".jpg", "h.jpg"}}"{%else%}"{{site.default_share_image | replace: ".jpg", "s.jpg"}}"{%endif%}/>
+    <meta name="twitter:image" content={% if page.imgurfilepath %}"{{page.imgurfilepath | replace: ".jpg", "h.jpg"}}"{%else%}"{{site.twitter_card_image}}"{%endif%}/>
 
     <link href="{{ "/atom.xml" | prepend: site.baseurl }}" type="application/atom+xml" rel="alternate" title="ATOM feed">
     <link href="{{ "/feed.xml" | prepend: site.baseurl }}" type="application/rss+xml" rel="alternate" title="RSS feed">
