@@ -58,7 +58,7 @@ layout: default
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script>
 $( document ).ready(function() {
-	var jsonObject = $.getJSON("/json-post-urls.html", function(data){
+	var jsonObject = $.getJSON("/json-post-urls/", function(data){
 	var randomurl = data[Math.floor(Math.random()*data.length)];
 	$("#randombutton").attr("href", randomurl)
 	});
