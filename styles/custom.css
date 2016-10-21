@@ -41,6 +41,8 @@ a {
 }
 
 .post-image {
-	width: 95%;
+	width: auto;
+	height: auto;
+	max-width:100%;
 	
 }
