@@ -3,7 +3,6 @@ layout: splash
 ---
 
 {% for post in site.posts limit:4 %}
-	<!--><div class="post-container">-->
 		<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->
 		<div class="row"><a href="{{post.url}}"><img class="post-image" src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
 		<a class="padded-title" href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}} </a>
@@ -14,6 +13,5 @@ layout: splash
 			<p>{{post.content | truncatewords: 40}} <a href={{post.url}}>read more</a></p>
 		{% endif %}
 		<br><br><br>
-		<!--></div>-->
 {% endfor %}
 {% include facebook_like.html %}
