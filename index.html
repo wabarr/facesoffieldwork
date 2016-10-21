@@ -5,7 +5,7 @@ layout: splash
 {% for post in site.posts limit:4 %}
 	<div class="post-container">
 		<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->
-		<div class="row"><a href="{{post.url}}"><img src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
+		<div class="row"><a href="{{post.url}}"><img class="post-image" src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
 		<a class="padded-title" href="{{post.url}}"> {%if post.author%}{{post.author}} - {%endif%}{{post.title}} </a>
 		{% if post.location %}
 			<br>
