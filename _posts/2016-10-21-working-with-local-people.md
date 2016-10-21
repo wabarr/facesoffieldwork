@@ -6,7 +6,7 @@ location: Caldas, Colombia
 author: Lina
 imgurfilepath: http://i.imgur.com/SVIcDHn.jpg
 alt-fb-share-img: http://i.imgur.com/8Uh7hlg.jpg
-tags: ["primatology"]
+tags: ["primatology", "conservation"]
 ---
 
 There is no successful field season if you work alone. And there is no fun, worthwhile and amazing field season if you don't interact with and learn from the people with whom you are living with. And I don’t mean your fellow field assistants and colleagues. I mean all the amazing local people who live at your sites. They are a key component of being in the field, not only because you are working in their hometown or staying at their place or eating their food, but simply because they have acquired an astonishing knowledge of the environment that surrounds them and which you are studying and trying to figure out.
