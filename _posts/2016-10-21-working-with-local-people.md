@@ -5,6 +5,7 @@ date:   2016-10-21
 location: Caldas, Colombia
 author: Lina
 imgurfilepath: http://i.imgur.com/SVIcDHn.jpg
+alt-fb-share-img: http://i.imgur.com/8Uh7hlg.jpg
 tags: ["primatology"]
 ---
 
