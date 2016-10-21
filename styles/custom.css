@@ -30,3 +30,12 @@ a {
 .padded-title {
 	padding:3px 10px 3px 10px;
 }
+
+.post-container {
+	background-color:#fafafa;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#dddddd;
+	padding:5px 5px 5px 5px;
+}
+
