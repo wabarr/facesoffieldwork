@@ -29,8 +29,10 @@ layout: default
 				  $("#imguploadform").remove();
 				  $("#successupload").html("<img src=" + response.data.link + "></a>");
 				  $("#formspree").removeClass("hidden").addClass("visible");
-				  $("#imgurlink").val(response.data.link);
-				  $("#imgurdelete").val(response.data.deletehash);
+				  $("#imgurlink-form").val(response.data.link);
+				  $("#imgurdelete-form").val(response.data.deletehash);
+				  $("#imgurlink").html(response.data.link);
+				  $("#imgurdelete").html(response.data.deletehash);
 				  
 			  },
 			  error: function(response){
@@ -89,12 +91,14 @@ What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="ex
 		<input type="text" name="submittername" placeholder="Your name">
 		<input type="text" name="location" placeholder="Where was the photo taken?">
 	    <textarea style="width: 100%; height: 150px;" name="the story" placeholder="What's the story of this photo"></textarea>
-		<input type="text" name="photo-link" type="hidden" id="imgurlink">
-		<input type="text" name="imgur-delete-hash" type="hidden" id="imgurdelete">
+		<input type="text" name="photo-link" type="hidden" id="imgurlink-form">
+		<input type="text" name="imgur-delete-hash" type="hidden" id="imgurdelete-form">
 		<input type="hidden" name="_subject" value="New FOF submission!" />
 		<input type="text" name="_gotcha" style="display:none" />
 		<input type="hidden" name="_next" value="/thanks/" />
 	    <input type="submit" value="Tell us your story">
 	</form>
+	<p id = "imgurlink"></p>
+	<p id = "imgurdelete"></p>
 </div>
 </div>
