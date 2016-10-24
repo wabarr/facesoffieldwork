@@ -5,9 +5,10 @@
 {% for post in site.posts %}
 	{
 		"url": "{{post.url}}",
-		"author": "{{post.author}},"
+		"author": "{{post.author}}",
 		"lat": "{{post.lat}}",
-		"lng": "{{post.lng}}"
+		"lng": "{{post.lng}}",
+		"imgurthumbnail":"{{ post.imgurfilepath | replace: '.jpg', 's.jpg' }}"
 	{%if forloop.last%} } {%else%} }, {%endif%}
 	{% endfor %}
 ]

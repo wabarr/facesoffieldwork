@@ -44,3 +44,8 @@ a {
 	max-width:100%;
 	
 }
+
+#map {
+      width: 420px;
+      height: 420px;
+    }

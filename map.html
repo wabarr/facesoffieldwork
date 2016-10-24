@@ -1,0 +1,41 @@
+---
+layout: splash
+---
+
+  <div id="map"></div>
+  <div id="dynamic-post-container">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script>
+    var map = new GMaps({
+        el: '#map',
+	    zoom: 1,
+        lat: 0,
+	    lng: 0,
+		mapType: 'hybrid'
+    });
+  </script>
+	
+  <script>
+	$( document ).ready(function() {
+		
+		
+		$.getJSON( "/map-data-feed/", function( data ) {
+			$.each(data, function(index, object){
+				map.addMarker({
+				  lat: object.lat,
+				  lng: object.lng,
+				  title: object.author,
+				  click: function(e) {
+				    window.open(object.url);
+				  },
+				  icon:{
+				    size : new google.maps.Size(90, 90),
+				    url : object.imgurthumbnail
+				   }
+				});
+			});
+		});
+	});
+  </script>
+	
+{% include facebook_like.html %}
