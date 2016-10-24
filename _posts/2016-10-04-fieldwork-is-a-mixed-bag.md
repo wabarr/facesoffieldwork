@@ -3,6 +3,8 @@ layout: post
 title:  "Fieldwork is a mixed bag"
 date:   2016-10-04
 location: "Koobi Fora, Kenya"
+lat: 4.015
+lng: 36.37
 author: Andrew
 imgurfilepath: http://i.imgur.com/eg6mD3B.jpg
 tags: ["paleoanthropology", "paleontology", "geology"]

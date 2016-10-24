@@ -1,0 +1,13 @@
+---
+---
+
+[
+{% for post in site.posts %}
+	{
+		"url": "{{post.url}}",
+		"author": "{{post.author}},"
+		"lat": "{{post.lat}}",
+		"lng": "{{post.lng}}"
+	{%if forloop.last%} } {%else%} }, {%endif%}
+	{% endfor %}
+]

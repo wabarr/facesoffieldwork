@@ -3,6 +3,8 @@ layout: post
 title:  "Working with local people"
 date:   2016-10-21
 location: Caldas, Colombia
+lat: 5.2896124
+lng: -75.8344087
 author: Lina
 imgurfilepath: http://i.imgur.com/SVIcDHn.jpg
 alt-fb-share-img: http://i.imgur.com/8Uh7hlg.jpg

@@ -3,6 +3,8 @@ layout: post
 title:  "Don't Bite the Pottery"
 date:   2016-10-04
 location: "Lothagam, Kenya"
+lat: 2.92
+lng: 35.50
 author: Eve
 imgurfilepath: http://i.imgur.com/RiMe1lu.jpg
 twitterhandle: evekboyle

@@ -3,6 +3,8 @@ layout: post
 title:  "Making It Work"
 date:   2016-10-02
 location: Dikika, Ethiopia
+lat: 11.04502
+lng: 40.44833
 author: Andrew
 imgurfilepath: http://i.imgur.com/J6HPKUo.jpg
 twitterhandle: wabarree
