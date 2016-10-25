@@ -30,7 +30,9 @@ alt-fb-share-img: http://i.imgur.com/pplQHEa.png
 				    window.open(object.url);
 				  },
 				  icon:{
-				    size : new google.maps.Size(90, 90),
+    				scaledSize: new google.maps.Size(60, 60), // scaled size
+    				origin: new google.maps.Point(0,0), // origin
+    				anchor: new google.maps.Point(0, 0), // anchor
 				    url : object.imgurthumbnail
 				   }
 				});
