@@ -49,9 +49,11 @@ layout: default
 </script>
 
 <div class="my-text-body">
-<h3>Share your story</h3>
+<h3>We want to hear your story, and see you in the field!</h3>
 
-<p>Upload your photo to share your story with Faces of Fieldwork. You can share your story after uploading the photo. The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
+<p>The first step is uploading your photo. After you upload, we will show you a preview of your photo and then you can tell us your story.</p>
+
+<p>The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
 
 
 
