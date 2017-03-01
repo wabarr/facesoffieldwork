@@ -7,7 +7,6 @@ lat: 26.5704844
 lng: -82.2232696
 author: Sarah
 imgurfilepath: http://i.imgur.com/V1sRbri.png
-alt-fb-share-img: http://i.imgur.com/8Uh7hlg.jpg
 tags: ["fishing"]
 ---
 
