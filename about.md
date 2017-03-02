@@ -2,15 +2,21 @@
 layout: page
 ---
 
+## What we do
 
 Faces of Fieldwork highlights researchers doing fieldwork. We focus on the personal stories of people doing sometimes unglamorous work. We may have dirt in our faces, but we love what we do. 
 
 You are welcome to [submit your own]({{site.contributeURL}}) photos and stories.
 
-## About the site creator
+## Origin Story
 
-[Andrew Barr](http://wabarr.com) is a paleoanthropologist interested in understanding the environmental context of early human evolution in eastern Africa. His field research in Ethiopia and Kenya examines the paleoecological forces that shaped the evolution of our early ancestors. 
+Faces of fieldwork began during a long drive in northwest Kenya. At a rest-stop, I happened to look at myself in the side mirror and noted that my field beard was looking particularly gnarly. I posted this photo with the caption "Faces of Fieldwork", and the rest is history. 
 
-![photo of the site creator Andrew](http://i.imgur.com/IfUJXhWl.jpg)
+![photo of the site creator Andrew](http://i.imgur.com/IENQGZE.jpg)
+
+## About Me
+
+My name is [Andrew Barr](http://wabarr.com).  I am a paleoanthropologist interested in understanding the environmental context of early human evolution in eastern Africa. My field research in Ethiopia and Kenya examines the paleoecological forces that shaped the evolution of our early ancestors. 
+
 
 {% include facebook_like.html %}
