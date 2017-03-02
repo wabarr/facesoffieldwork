@@ -7,6 +7,7 @@ lat: 18.09
 lng: -88.577481
 author: Stacy
 imgurfilepath: http://i.imgur.com/1EnkiR2.jpg
+alt-fb-share-img: http://i.imgur.com/SnFyX6R.jpg
 tags: ["archaeology"]
 ---
 
