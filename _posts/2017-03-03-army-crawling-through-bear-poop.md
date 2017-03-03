@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Army crawling through bear poop"
-date:   2017-03-01
+date:   2017-03-03
 location: 	Wisconson
 lat: 43.04
 lng: -87.9
