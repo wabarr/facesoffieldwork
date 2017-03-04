@@ -11,8 +11,22 @@ layout: splash
 			<br>
 			<i class="fa fa-map-marker" aria-hidden="true"></i>
 			<span class="my-tag">{{ post.location }}</span>&ensp;
-			<p>{{post.content | truncatewords: 40}} <a href={{post.url}}>read more</a></p>
 		{% endif %}
+			
+		{% if post.twitterhandle %}
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			<span class="my-tag"><a href="http://twitter.com/{{ page.twitterhandle }}">@{{ post.twitterhandle }}</a></span>
+		{% endif %}
+		<br>
+	    {% if post.tags %}
+	      <i class="fa fa-tags" aria-hidden="true"></i>
+	      {% for tag in post.tags %}
+	        <span class="my-tag">{{ tag }}</span>&ensp;
+	      {% endfor %}
+	    {% endif %}
+		<div class="expander">
+			{{post.content}}
+			{% include facebook_like.html %}
+		</div>
 	</div>
 {% endfor %}
-{% include facebook_like.html %}
