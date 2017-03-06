@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Snowshoeing in heavy fresh powder!"
-date:   2017-03-01
+date:   2017-03-06
 location: Skitwish Peak, Coeur d'Alane, Idaho
 lat: 47.70
 lng: -116.48
