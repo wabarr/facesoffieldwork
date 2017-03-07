@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Fracking impacts bird calls"
-date:   2017-03-01
+date:   2017-03-07
 location: 	Central Arkansas
 lat: 34.92
 lng: -92.80
 author: Maureen
 twitterhandle: naturewithmojo
 imgurfilepath: http://i.imgur.com/y8IYZnm.jpg
+alt-fb-share-img: http://i.imgur.com/L9EyWfi.jpg
 tags: ["ecology"]
 ---
 	
