@@ -8,7 +8,7 @@ lng: -70.94
 author: Ben
 twitterhandle: BSchaef_
 imgurfilepath: http://i.imgur.com/gFhvpmh.jpg
-alt-fb-share-img:http://i.imgur.com/nkPMmdq.jpg
+alt-fb-share-img: http://i.imgur.com/nkPMmdq.jpg
 tags: ["bioarchaeology"]
 ---
 	
