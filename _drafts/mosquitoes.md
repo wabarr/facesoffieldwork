@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "... and mosquitoes!"
+title:  "Mosquitoes!"
 date:   2017-03-04
 location: Jamaica Bay Brooklyn, New York
 lat: -73.86
