@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Don't forget the camping stool!"
-date:   2017-03-01
+date:   2017-03-08
 location: Laikipia District, Kenya
 lat: 0.341
 lng: 36.795
