@@ -91,6 +91,7 @@ What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="ex
 		<input type="email" name="_replyto" placeholder="Your email address">
 		<input type="text" name="twitterhandle" placeholder="Your twitter handle">
 		<input type="text" name="submittername" placeholder="Your name">
+		<input type="text" name="website" placeholder="Personal research website link">
 		<input type="text" name="location" placeholder="Where was the photo taken?">
 		<input type="text" name="tags" placeholder="What scientific field? (e.g., ecology, geology, forestry, etc)">
 	    <textarea style="width: 100%; height: 150px;" name="the story" placeholder="What's the story of this photo"></textarea>
