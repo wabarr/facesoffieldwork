@@ -3,11 +3,14 @@
 	font-weight: bold;
 }
 
-input[type="submit"], input[type="button"]{
+input[type="file"], input[type="button"]{
 	color:white;
 	background-color:#4db6ac;
 	border-radius:3px;
 	border-width:1px;
+	padding:10px 10px 10px 10px;
+	border-style:outset;
+	width:100%;
 }
 
 a {
