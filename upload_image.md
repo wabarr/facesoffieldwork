@@ -49,13 +49,12 @@ layout: default
 </script>
 
 <div class="my-text-body">
+<a href="/"><img src="{{site.default_share_image}}"/></a>
 <h3>We want to hear your story, and see you in the field!</h3>
 
 <p>The first step is uploading your photo. After you upload, we will show you a preview of your photo and then you can tell us your story.</p>
 
 <p>The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
-
-
 
 <div id="failureupload" class="error"></div>
 <div id="successupload"></div>
@@ -77,6 +76,8 @@ layout: default
 <div id="whathappens">
 What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="expandinstructions"></i>
 </div>
+
+
 
 <div id="instructions" class="hidden">
 
@@ -105,4 +106,6 @@ What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="ex
 	<p id = "imgurlink"></p>
 	<p id = "imgurdelete"></p>
 </div>
+
+
 </div>
