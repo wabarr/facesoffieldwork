@@ -10,7 +10,7 @@ You are welcome to [submit your own]({{site.contributeURL}}) photos and stories.
 
 ## Origin Story
 
-Faces of fieldwork began during a long drive in northwest Kenya. At a rest-stop, I happened to look at myself in the side mirror and noted that my field beard was looking particularly gnarly. I posted this photo with the caption "Faces of Fieldwork", and the rest is history. 
+Faces of fieldwork began during a long drive in northwestern Kenya. At a rest-stop, I happened to look at myself in the side mirror and noted that my field beard was looking particularly grizzly. I posted this photo on Facebook with the caption "Faces of Fieldwork", and the rest is history. 
 
 ![photo of the site creator Andrew](http://i.imgur.com/IENQGZE.jpg)
 
