@@ -42,7 +42,7 @@ layout: default
 	{% include facebook_like.html %}
 	</div>
   <h3> More Faces <i class="fa fa-arrow-down" aria-hidden="true"></i></h3>
-  {% for post in site.posts limit:20 %}
+  {% for post in site.posts limit:site.paginate %}
   {% if post.url != page.url %}
   	<div class="my-text-body post-container">
   		<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->

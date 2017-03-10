@@ -2,7 +2,7 @@
 layout: splash
 ---
 
-{% for post in site.posts limit:20 %}
+{% for post in paginator.posts %}
 	<div class="post-container">
 		<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->
 		<div class="row"><a href="{{post.url}}"><img class="post-image" src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
@@ -33,3 +33,17 @@ layout: splash
 		</div>
 	</div>
 {% endfor %}
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous Page</a>
+  {% else %}
+    
+  {% endif %}
+  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next Page</a>
+  {% else %}
+    
+  {% endif %}
+</div>
