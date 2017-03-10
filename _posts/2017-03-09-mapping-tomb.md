@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Maping a tomb"
+title:  "Mapping a tomb"
 date:   2017-03-09
 location: Tumilaca La Chimba, Moquegua, Peru
 lat: -17.18
