@@ -5,7 +5,11 @@ layout: splash
 {% for post in paginator.posts %}
 	<div class="post-container">
 		<!-- Note that l.jpg below tells imgur site to serve a thumbnail -->
+		{% if post.youtube %}
+		<div class="row" style="position:relative;height:0;padding-bottom:56.25%"><iframe src="{{post.youtube}}{{site.youtubeparams}}" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+		{% else %}
 		<div class="row"><a href="{{post.url}}"><img class="post-image" src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
+		{% endif %}
 		<a href="{{post.url}}"><h3>{{post.author}} - {{post.title}} </h3></a>
 		<div>
 			{% if post.location %}
