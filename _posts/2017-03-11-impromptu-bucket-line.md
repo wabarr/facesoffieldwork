@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bucket line"
+title:  "Impromptu bucket line"
 date:   2017-03-09
 location: Mille-Logya, Ethiopia
 lat: 
