@@ -10,7 +10,7 @@ layout: splash
 		{% else %}
 		<div class="row"><a href="{{post.url}}"><img class="post-image" src={{post.imgurfilepath | replace: ".jpg", "l.jpg"}}></a></div>
 		{% endif %}
-		<a href="{{post.url}}"><h3>{{post.author}} - {{post.title}} </h3></a>
+		<a class="post-url-link" href="{{post.url}}"><h3>{{post.author}} - {{post.title}} </h3></a>
 		<div>
 			{% if post.location %}
 				<i class="fa fa-map-marker" aria-hidden="true"></i>

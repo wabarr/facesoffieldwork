@@ -54,8 +54,19 @@
 {% endif %}
 
 <script src="/js/jquery.expander.min.js"></script>
-<script>$('div.expander').expander({
+<script>
+$('div.expander').expander({
   slicePoint: 200
 });
+$('.more-link').click(function() {
+	var url = $( this ).closest(".post-container").children(".post-url-link").attr("href");
+	ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'posts',
+	  eventAction: 'read-more',
+	  eventLabel: url
+	});
+});
+
 </script>
 
