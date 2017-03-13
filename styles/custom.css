@@ -1,3 +1,15 @@
+div.page_number{
+	margin-top:7px;
+}
+
+.pagination a {
+	color:black;
+}
+
+.pagination {
+	margin-bottom:0px;
+}
+
 a h3 {
 	color:black;
 }

@@ -37,17 +37,29 @@ layout: splash
 		</div>
 	</div>
 {% endfor %}
+
 <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous Page</a>
-  {% else %}
-    
-  {% endif %}
-  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next Page</a>
-  {% else %}
-    
-  {% endif %}
+<div class="post-container">
+	<div class="row pagination">
+		<div class="col s2"></div>
+		<div class="col s2">
+  			{% if paginator.previous_page %}
+  			  <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-arrow-circle-left fa-2x"></i></a>
+  			{% else %}
+  			{% endif %}
+		</div>
+		<div class="col s4">
+  			<div class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+		</div>
+		<div class="col s2">
+  			{% if paginator.next_page %}
+  		 	<a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-arrow-circle-right fa-2x"></i></a>
+  			{% else %}
+  			{% endif %}
+		</div>
+		<div class="col s2"></div>
+	</div>
 </div>
+
+
+
