@@ -19,7 +19,7 @@ a h3 {
 	font-weight: bold;
 }
 
-input[type="file"], input[type="button"]{
+.button, input[type="file"], input[type="button"]{
 	color:white;
 	background-color:#4db6ac;
 	border-radius:3px;
