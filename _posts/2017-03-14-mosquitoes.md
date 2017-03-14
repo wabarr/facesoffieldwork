@@ -12,4 +12,4 @@ alt-fb-share-img: http://i.imgur.com/ou33iSS.jpg
 tags: ["forestry"]
 ---
 
-This photo was taken during a 2016 summer field investigation in Jamaica Bay. This particular plot was full of rose bushes, *Smilax rotundifolia*, and other thorny vegetation....and mosquitoes. All that aside, I was overjoyed because it was my first day using a tough book to collect data.  
+This photo was taken during a 2016 summer field investigation in Jamaica Bay. This particular plot was full of rose bushes, *Smilax rotundifolia*, and other thorny vegetation...and mosquitoes. All that aside, I was overjoyed because it was my first day using a tough book to collect data.  
