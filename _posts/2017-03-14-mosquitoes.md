@@ -5,7 +5,7 @@ date:   2017-03-14
 location: Jamaica Bay Brooklyn, New York
 lat: -73.86
 lng: 40.61
-author: Natalie S.
+author: Natalie
 twitterhandle: bksustainable
 imgurfilepath: http://i.imgur.com/kXH0KU2.jpg
 alt-fb-share-img: http://i.imgur.com/ou33iSS.jpg
