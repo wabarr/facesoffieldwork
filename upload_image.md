@@ -101,7 +101,7 @@ What happens to my image? <i class="fa fa-plus-circle" aria-hidden="true" id="ex
 		<input type="hidden" name="_subject" value="New FOF submission!" />
 		<input type="text" name="_gotcha" style="display:none" />
 		<input type="hidden" name="_next" value="/thanks/" />
-	    <input class="button" type="submit" value="Tell us your story">
+	    <input class="button" type="submit" value="Tell us your story"/>
 	</form>
 	<p id = "imgurlink"></p>
 	<p id = "imgurdelete"></p>
