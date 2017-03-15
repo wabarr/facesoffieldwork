@@ -3,17 +3,15 @@ layout: splash
 alt-fb-share-img: http://i.imgur.com/pplQHEa.png
 ---
 
-  <div id="map"></div>
-  <div id="dynamic-post-container">
+  <div id="map" style="width:100%"></div>
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script>
     var map = new GMaps({
         el: '#map',
 	    zoom: 1,
         lat: 0,
-	    lng: 0,
-		mapType: 'hybrid'
-    });
+	    lng: 0
+   });
   </script>
 	
   <script>
