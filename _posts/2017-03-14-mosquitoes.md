@@ -3,8 +3,8 @@ layout: post
 title:  "Mosquitoes!"
 date:   2017-03-14
 location: Jamaica Bay Brooklyn, New York
-lat: -73.86
-lng: 40.61
+lng: -73.86
+lat: 40.61
 author: Natalie
 twitterhandle: bksustainable
 imgurfilepath: http://i.imgur.com/kXH0KU2.jpg
