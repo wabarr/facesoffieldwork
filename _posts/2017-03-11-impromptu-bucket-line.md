@@ -3,8 +3,8 @@ layout: post
 title:  "Impromptu bucket line"
 date:   2017-03-09
 location: Mille-Logya, Ethiopia
-lat: 
-lng: 
+lat: 11.6
+lng: 40.86
 author: Andrew
 youtube: "https://www.youtube.com/embed/j6R2Fj-Kt-8"
 alt-fb-share-img: http://i.imgur.com/bCk7V4C.jpg
