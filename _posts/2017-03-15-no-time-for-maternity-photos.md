@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "No time for maternity photos"
-date:   2017-03-08
+date:   2017-03-15
 location: Coachella Valley, California
 lat: 33.84
 lng: -116.32
 author: Jennifer
 imgurfilepath: http://i.imgur.com/Dxerlld.jpg
 alt-fb-share-img: http://i.imgur.com/LXayBfW.jpg
-tags: ["ecological [hysiology"]
+tags: ["ecological physiology"]
 ---
 
 	
