@@ -1,0 +1,74 @@
+---
+layout: splash
+---
+
+<div class="row galleryrow">
+	{% for post in site.posts %}
+		{% if post.imgurfilepath %}
+		<div class="col s4">
+			<a href="#modal{{forloop.index}}"><img src="{{post.imgurfilepath | replace ".jpg", "s.jpg"}}"/></a>
+		</div>
+		{% cycle "", "", "</div><div class='row galleryrow'>" %}
+		
+		{% endif %}
+	{% endfor %}
+</div>
+
+
+
+{% for post in site.posts %}
+
+<div id="modal{{forloop.index}}" class="modal">
+    <div class="modal-content">
+		<div class="my-text-body post-container" style="margin-top:0px;">
+   			<h2 style="padding-top:5px">{{ post.title }}</h2>
+			    
+				
+				{% if post.author %}
+				<div class="row">
+			      <h4 style="margin-bottom:0px;">contributed by {{ post.author }}</h4>
+  					{% if post.twitterhandle %}
+  					<i class="fa fa-twitter"></i><a href="http://twitter.com/{{ page.twitterhandle }}">@{{ post.twitterhandle }}</a>
+  					{% endif %}
+				</div>
+			    {% endif %}
+				
+			<div class="row">
+			    {% if post.tags %}
+			      {% for tag in post.tags %}
+			        <div class="chip">{{ tag }}</div>
+			      {% endfor %}
+			    {% endif %}
+				
+				{% if post.location %}
+					<div class="chip"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ post.location }}</div>
+				{% endif %}
+			</div>
+		
+     	  	{% if post.youtube %}
+     	  		<div class="row" style="position:relative;height:0;padding-bottom:56.25%">
+		  		  	<iframe src="{{post.youtube}}{{site.youtubeparams}}" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+     	  	{% else %}
+			
+     	  	<div class="row"><img class="modalizedimage" src={{ post.imgurfilepath }}></div>
+     	  	{% endif %}
+			
+	  		{{ post.content }}
+			{% include facebook_like.html %}
+		</div>
+		
+		<div class="fb-comments" data-href="{{site.url}}/{{page.url}}" data-numposts="5" data-width="100%"></div>
+			
+    	
+		
+		<div class="modal-footer">
+	    	<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+		</div>
+	</div>
+
+</div>
+  
+{% endfor %}
+
+
+
