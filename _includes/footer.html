@@ -8,7 +8,7 @@
     </p>
 </footer>
 <script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
-<script type="text/javascript" src="{{ "/styles/mlz/mlz.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
@@ -67,6 +67,7 @@ $('.more-link').click(function() {
 	  eventLabel: url
 	});
 });
-
 </script>
-
+<script>
+  	$('.modal').modal();
+</script>
