@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Murphy's Law"
-date:   2017-03-04
+date:   2017-03-16
 location: Ancient Merv Archaeological Park, Turkmenistan
 lat: 37.669
 lng: 62.192
