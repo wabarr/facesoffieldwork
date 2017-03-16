@@ -59,15 +59,6 @@ $('div.expander').expander({
   slicePoint: 200
 });
 
-$('.modal-link').click(function() {
-	var url = $( this ).attr("href");
-	ga('send', {
-	  hitType: 'event',
-	  eventCategory: 'modals',
-	  eventAction: 'modal-open',
-	  eventLabel: url
-	});
-});
 
 $('.more-link').click(function() {
 	var url = $( this ).closest(".post-container").children(".post-url-link").attr("href");
@@ -79,6 +70,12 @@ $('.more-link').click(function() {
 	});
 });
 </script>
+
 <script>
-  	$('.modal').modal();
+$( document ).ready(function() {
+	if($("#image-gallery").length > 0){
+	Materialize.toast("Click on the links below each image to read the story!", 5000)
+	}
+});
+	
 </script>
