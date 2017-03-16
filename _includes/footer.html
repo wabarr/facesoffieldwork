@@ -58,6 +58,17 @@
 $('div.expander').expander({
   slicePoint: 200
 });
+
+$('.modal-link').click(function() {
+	var url = $( this ).attr("href");
+	ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'modals',
+	  eventAction: 'modal-open',
+	  eventLabel: url
+	});
+});
+
 $('.more-link').click(function() {
 	var url = $( this ).closest(".post-container").children(".post-url-link").attr("href");
 	ga('send', {

@@ -6,7 +6,7 @@ layout: splash
 	{% for post in site.posts %}
 		{% if post.imgurfilepath %}
 		<div class="col s4">
-			<a href="#modal{{forloop.index}}"><img src="{{post.imgurfilepath | replace ".jpg", "s.jpg"}}"/></a>
+			<a href="#{{post.url}}" class="modal-link"><img src="{{post.imgurfilepath | replace ".jpg", "s.jpg"}}"/></a>
 		</div>
 		{% cycle "", "", "</div><div class='row galleryrow'>" %}
 		
@@ -18,7 +18,7 @@ layout: splash
 
 {% for post in site.posts %}
 
-<div id="modal{{forloop.index}}" class="modal">
+<div id="{{post.url}}" class="modal">
     <div class="modal-content">
    			<h2 style="padding-top:5px">{{ post.title }}</h2>
 			   <div class='row'>
