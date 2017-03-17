@@ -1,10 +1,10 @@
 ---
 ---
 
-[
-{% for post in site.posts %}
+[{% for post in site.posts %}
 	{
 		"url": "{{post.url}}",
+		"date": "{{post.date}}",
 		"title":"{{post.title}}",
 		"tags":{{post.tags | jsonify}},
 		"author": "{{post.author}}",
