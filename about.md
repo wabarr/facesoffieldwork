@@ -18,3 +18,7 @@ My name is [Andrew Barr](http://wabarr.com).  I am a paleoanthropologist interes
 
 
 {% include facebook_like.html %}
+
+<div>
+<a href="/"><h3>See all faces <i class="fa fa-home" aria-hidden="true"></i></h3></a>
+</div>
