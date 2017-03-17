@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The hunger remains..."
-date:   2017-03-15
+date:   2017-03-17
 location: Buluk, Kenya
 lat: 4.22
 lng: 36.53
