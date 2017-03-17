@@ -1,0 +1,19 @@
+---
+---
+
+[
+{% for post in site.posts %}
+	{
+		"url": "{{post.url}}",
+		"title":"{{post.title}}",
+		"tags":{{post.tags | jsonify}},
+		"author": "{{post.author}}",
+		"lat": "{{post.lat}}",
+		"lng": "{{post.lng}}",
+		"location":"{{post.location}}",
+		"twitterhandle":"{{post.twitterhandle}}",
+		"imgurfilepath":"{{post.imgurfilepath}}",
+		"alt-fb-share-img":"{{post.alt-fb-share-img}}",
+		"website":"{{post.website}}",
+		"youtube":"{{post.youtube}}",
+		"content":"{{post.content}}"{%if forloop.last%} } {%else%} }, {%endif%}{% endfor %}]
