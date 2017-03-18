@@ -11,7 +11,7 @@ FacebookAppID: 1616633811967151
 url: "http://facesoffieldwork.com" # replace by your site's url
 twitter_username: facesfieldwork
 permalink: /:title/
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-redirect-from]
 paginate: 5
 
 youtubeparams: "?rel=0&controls=1&showinfo=0&modestbranding=1"

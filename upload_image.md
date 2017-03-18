@@ -1,5 +1,6 @@
 ---
 layout: default
+redirect_from: /contribute/
 ---
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script>
