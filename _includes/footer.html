@@ -134,6 +134,14 @@ $( document ).ready(function() {
 	// if the page is index page then populate with first post data
 	if($("#index-identifier").length > 0){
 		populateFeature(getPost(posts,posts[0].url), parentDiv="#featured-face-skeleton");
+		{% if site.g_analytics %}
+		ga('send', {
+			hitType: 'event',
+			eventCategory: 'scroll-loads',
+			eventAction: 'first-face-loaded-before-scroll',
+			eventLabel: posts[postsDisplayed].url
+		});
+		{% endif %}
 		postsDisplayed++;		
 		
 	};
