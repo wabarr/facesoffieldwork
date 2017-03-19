@@ -1,0 +1,11 @@
+<div class="row" >
+	{% for post in site.posts %}
+		{% if post.imgurfilepath %}
+		<div class="col s4">
+			<a class="gallery-link" href="{{post.url}}"><img src="{{post.imgurfilepath | replace: '.jpg', 'm.jpg'}}" /></a>
+		</div>
+		{% cycle "", "", "</div><div class='row'>" %}
+		
+		{% endif %}
+	{% endfor %}
+</div>
