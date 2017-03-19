@@ -88,7 +88,15 @@ $( document ).ready(function() {
 	};
 	
 	function populateFeature(post, parentDiv, scroll=false){
-		$(parentDiv + " .featured-face-img").attr("src",post.imgurfilepath);	
+		$(parentDiv).hide()
+		if(post.youtube){
+			$(parentDiv + " .featured-face-img-row").before("<div class='row featured-face-youtube' style='position:relative;height:0;padding-bottom:56.25%'><iframe src='" + post.youtube + "{{site.youtubeparams}}' width='640' height='360' frameborder='0' style='position:absolute;width:100%;height:100%;left:0' allowfullscreen></iframe></div>")
+			$(parentDiv + " .featured-face-img-row").hide()
+		} else {
+			$(parentDiv + " .featured-face-youtube").remove()
+			$(parentDiv + " .featured-face-img").attr("src",post.imgurfilepath);
+		}
+			
 		$(parentDiv + " .featured-face-content").html(post.content);	
 		$(parentDiv + " .fb-comments").attr("data-href","http://facesoffieldwork.com" + post.url);
 		$(parentDiv + " .featured-face-title").html(post.author + " - " + post.title);
@@ -105,7 +113,7 @@ $( document ).ready(function() {
 			$(parentDiv + " .featured-face-tags").append("<span class='my-tag tag-right-padded'>" + value + "</span>")
 		});
 		//make the div visible
-		$(parentDiv).css("display",'block');
+		$(parentDiv).show();
 		if(scroll === true) {
 			$('html, body').animate({
 		        scrollTop: $("#featured-face").offset().top
