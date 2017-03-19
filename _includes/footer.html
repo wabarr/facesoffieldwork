@@ -59,15 +59,16 @@ $( document ).ready(function() {
 	
 	// keep track of which post indices have been displayed
 	var postsDisplayed = 0
+	var posts;
 	
 	//if there is a post skeleton in the DOM,  use AJAX to get data for all posts and save to variable
 	if($("#featured-face-skeleton").length>0){
-		var posts;
 		$.ajax({
-		    url: '/posts.json/',
+		    url: "/posts-json",
 			// required to make the request synchronous
 			// otherwise the variable won't have the data in it!
 			async: false,
+			dataType: "json",
 		    success: function(data) {
 		        posts = data;
 		    }
