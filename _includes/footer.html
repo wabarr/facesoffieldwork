@@ -10,23 +10,6 @@
 <script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
- 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
- 
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
 
 <!-- Facebook -->
 <div id="fb-root"></div>
@@ -38,7 +21,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
    
-<!-- Facebook -->
+<!-- Google Analytics -->
 
 {% if site.g_analytics %}
 <script>
@@ -73,9 +56,101 @@ $('.more-link').click(function() {
 
 <script>
 $( document ).ready(function() {
-	if($("#image-gallery").length > 0){
-	Materialize.toast("Click on the links below each image to read the story!", 5000)
+	
+	// keep track of which post indices have been displayed
+	var postsDisplayed = 0
+	var posts;
+	
+	//if there is a post skeleton in the DOM,  use AJAX to get data for all posts and save to variable
+	if($("#featured-face-skeleton").length>0){
+		$.ajax({
+		    url: "/posts-json",
+			// required to make the request synchronous
+			// otherwise the variable won't have the data in it!
+			async: false,
+			dataType: "json",
+		    success: function(data) {
+		        posts = data;
+		    }
+		});
 	}
+	
+	
+	//returns single object matching a particular url from posts
+	function getPost(posts, url) {
+		for (var i = 0; i < posts.length; i++) {
+			if(posts[i].url === url) {
+				return posts[i];
+			};
+		};
+	};
+	
+	function populateFeature(post, parentDiv, scroll=false){
+		$(parentDiv + " .featured-face-img").attr("src",post.imgurfilepath);	
+		$(parentDiv + " .featured-face-content").html(post.content);	
+		$(parentDiv + " .fb-comments").attr("data-href","http://facesoffieldwork.com" + post.url);
+		$(parentDiv + " .featured-face-title").html(post.author + " - " + post.title);
+		//make the div visible
+		$(parentDiv).css("display",'block');
+		if(scroll === true) {
+			$('html, body').animate({
+		        scrollTop: $("#featured-face").offset().top
+		    }, 1000);
+		}
+		};
+
+	$(".gallery-link").click(function( event ) {
+		event.preventDefault();
+		populateFeature(getPost(posts,$( this ).attr("href")), parentDiv="#featured-face-skeleton", scroll=true);
+		ga('send', {
+			hitType: 'event',
+			eventCategory: 'gallery',
+			eventAction: 'gallery-click',
+			eventLabel: $( this ).attr("href")
+		});
+	});
+	
+	// if the page is a single post page, with a post-identifier div, then populate with matching post data
+	if($("#post-identifier").length > 0){
+		populateFeature(getPost(posts,window.location.pathname), parentDiv="#featured-face-skeleton");
+	};
+	
+	// if the page is index page then populate with first post data
+	if($("#index-identifier").length > 0){
+		populateFeature(getPost(posts,posts[0].url), parentDiv="#featured-face-skeleton");
+		postsDisplayed++;		
+		
+	};
+	
+	//detects when an element has been scrolled to
+	function isScrolledIntoView(elem)
+	{
+	    var docViewTop = $(window).scrollTop();
+	    var docViewBottom = docViewTop + $(window).height();
+
+	    var elemTop = $(elem).offset().top;
+	    var elemBottom = elemTop + $(elem).height();
+
+	    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+	}
+	
+	//put event on scroll to fire when a div is reached
+	if($("#load-more-content-trigger").length > 0){
+		$(window).on('scroll', function() {       
+		    if(isScrolledIntoView($("#load-more-content-trigger"))===true) {
+				var newID = "loadedPost" + postsDisplayed
+				if(postsDisplayed < posts.length) {
+					$("#featured-face-skeleton").clone().attr("id",newID).insertBefore($("#load-more-content-trigger"));
+					populateFeature(posts[postsDisplayed], parentDiv="#"+newID);
+					postsDisplayed++;
+				}
+				
+		    }
+		});
+	}
+	
+	
+	
 });
 	
 </script>
