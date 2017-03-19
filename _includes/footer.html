@@ -92,6 +92,18 @@ $( document ).ready(function() {
 		$(parentDiv + " .featured-face-content").html(post.content);	
 		$(parentDiv + " .fb-comments").attr("data-href","http://facesoffieldwork.com" + post.url);
 		$(parentDiv + " .featured-face-title").html(post.author + " - " + post.title);
+		$(parentDiv + " .post-location").html("<span class='my-tag'>" + post.location + "</span>");
+		if(post.twitterhandle){
+			$(parentDiv + " .twitter-link").attr("href","http://twitter.com/"+post.twitterhandle).html("@"+post.twitterhandle);
+			$(parentDiv + " .fa-twitter").show();
+		} else {
+			$(parentDiv + " .twitter-link").attr("href","/").html("");
+			$(parentDiv + " .fa-twitter").hide();
+		}
+		$(parentDiv + " .featured-face-tags .my-tag").remove()
+		$.each(post.tags, function(index,value){
+			$(parentDiv + " .featured-face-tags").append("<span class='my-tag tag-right-padded'>" + value + "</span>")
+		});
 		//make the div visible
 		$(parentDiv).css("display",'block');
 		if(scroll === true) {
