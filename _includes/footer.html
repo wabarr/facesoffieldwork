@@ -88,8 +88,7 @@ $( document ).ready(function() {
 		$(parentDiv + " .featured-face-img").attr("src",post.imgurfilepath);	
 		$(parentDiv + " .featured-face-content").html(post.content);	
 		$(parentDiv + " .fb-comments").attr("data-href","http://facesoffieldwork.com" + post.url);
-		$(parentDiv + " .featured-face-author").html(post.author);
-		$(parentDiv + " .featured-face-title").html(post.title);
+		$(parentDiv + " .featured-face-title").html(post.author + " - " + post.title);
 		//make the div visible
 		$(parentDiv).css("display",'block');
 		if(scroll === true) {
