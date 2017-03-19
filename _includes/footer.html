@@ -45,12 +45,14 @@ $('div.expander').expander({
 
 $('.more-link').click(function() {
 	var url = $( this ).closest(".post-container").children(".post-url-link").attr("href");
+	{% if site.g_analytics %}
 	ga('send', {
 	  hitType: 'event',
 	  eventCategory: 'posts',
 	  eventAction: 'read-more',
 	  eventLabel: url
 	});
+	{% endif %}
 });
 </script>
 
@@ -102,12 +104,14 @@ $( document ).ready(function() {
 	$(".gallery-link").click(function( event ) {
 		event.preventDefault();
 		populateFeature(getPost(posts,$( this ).attr("href")), parentDiv="#featured-face-skeleton", scroll=true);
+		{% if site.g_analytics %}
 		ga('send', {
 			hitType: 'event',
 			eventCategory: 'gallery',
 			eventAction: 'gallery-click',
 			eventLabel: $( this ).attr("href")
 		});
+		{% endif %}
 	});
 	
 	// if the page is a single post page, with a post-identifier div, then populate with matching post data
@@ -142,12 +146,14 @@ $( document ).ready(function() {
 				if(postsDisplayed < posts.length) {
 					$("#featured-face-skeleton").clone().attr("id",newID).insertBefore($("#load-more-content-trigger"));
 					populateFeature(posts[postsDisplayed], parentDiv="#"+newID);
+					{% if site.g_analytics %}
 					ga('send', {
 						hitType: 'event',
 						eventCategory: 'scroll-loads',
 						eventAction: 'new-face-loaded',
 						eventLabel: posts[postsDisplayed].url
 					});
+					{% endif %}
 					postsDisplayed++;
 				}
 				
