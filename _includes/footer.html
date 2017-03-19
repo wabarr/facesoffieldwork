@@ -142,6 +142,12 @@ $( document ).ready(function() {
 				if(postsDisplayed < posts.length) {
 					$("#featured-face-skeleton").clone().attr("id",newID).insertBefore($("#load-more-content-trigger"));
 					populateFeature(posts[postsDisplayed], parentDiv="#"+newID);
+					ga('send', {
+						hitType: 'event',
+						eventCategory: 'scroll-loads',
+						eventAction: 'new-face-loaded',
+						eventLabel: posts[postsDisplayed].url
+					});
 					postsDisplayed++;
 				}
 				
