@@ -24,10 +24,7 @@
 		  {% endfor %}
 		</div>
 		<div class="featured-face-content">{{page.content}}</div>
-		<!--
-			<div class="fb-comments" data-href="" data-numposts="5" data-width="100%"></div>
-			-->
-			
+		{% if page.layout == 'post'%}<div class="fb-comments" data-href="http://facesoffieldwork.com{{page.url}}" data-numposts="5" data-width="100%"></div>{%endif%}
 	 	{% include facebook_like.html %}
 		
   </div>
