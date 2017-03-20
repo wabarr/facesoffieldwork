@@ -97,15 +97,13 @@ $( document ).ready(function() {
 		}
 			
 		$(parentDiv + " .featured-face-content").html(post.content);	
-		$(parentDiv + " .fb-comments").attr("data-href","http://facesoffieldwork.com" + post.url);
 		$(parentDiv + " .featured-face-title").html(post.author + " - " + post.title);
 		$(parentDiv + " .post-location").html("<span class='my-tag'>" + post.location + "</span>");
 		if(post.twitterhandle){
-			$(parentDiv + " .twitter-link").attr("href","http://twitter.com/"+post.twitterhandle).html("@"+post.twitterhandle);
-			$(parentDiv + " .fa-twitter").show();
+			var twittercontent = "<i class='fa fa-twitter' aria-hidden='true'></i> <a class='twitter-link' href='https://twitter.com/" + post.twitterhandle + "'>@" + post.twitterhandle + "</a>"
+			$(parentDiv + " .featured-face-twitter").html(twittercontent);
 		} else {
-			$(parentDiv + " .twitter-link").attr("href","/").html("");
-			$(parentDiv + " .fa-twitter").hide();
+			$(parentDiv + " .featured-face-twitter").html("");
 		}
 		$(parentDiv + " .featured-face-tags .my-tag").remove()
 		$.each(post.tags, function(index,value){
@@ -119,24 +117,6 @@ $( document ).ready(function() {
 		    }, 1000);
 		}
 		};
-
-	$(".gallery-link").click(function( event ) {
-		event.preventDefault();
-		populateFeature(getPost(posts,$( this ).attr("href")), parentDiv="#featured-face-skeleton", scroll=true);
-		{% if site.g_analytics %}
-		ga('send', {
-			hitType: 'event',
-			eventCategory: 'gallery',
-			eventAction: 'gallery-click',
-			eventLabel: $( this ).attr("href")
-		});
-		{% endif %}
-	});
-	
-	// if the page is a single post page, with a post-identifier div, then populate with matching post data
-	if($("#post-identifier").length > 0){
-		populateFeature(getPost(posts,window.location.pathname), parentDiv="#featured-face-skeleton");
-	};
 	
 	// if the page is index page then populate with first post data
 	if($("#index-identifier").length > 0){

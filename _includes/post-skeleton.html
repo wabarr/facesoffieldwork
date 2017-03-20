@@ -1,23 +1,29 @@
-<article id="featured-face-skeleton" class="center-align" itemscope itemtype="http://schema.org/BlogPosting" style="display:none;">
+<article id="featured-face-skeleton" class="center-align" itemscope itemtype="http://schema.org/BlogPosting">
 
   
 	<div class="my-text-body post-container" id="featured-face">
 		<div class="row featured-face-img-row">
-	 		<img src="" class="featured-face-img"/>
+	 		<img src="{{page.imgurfilepath}}" class="featured-face-img"/>
 		</div>
-		<h2 class="featured-face-title"></h2>
+		<h2 class="featured-face-title">{{page.author}} - {{page.title}}</h2>
 		<div class="featured-face-location">
 				<i class="fa fa-map-marker" aria-hidden="true"></i>
-				<span class="post-location"></span>
+				<span class="post-location">{{page.location}}</span>
 		</div>
 		<div class="featured-face-twitter">
+			{% if page.twitterhandle %}
 			<i class="fa fa-twitter" aria-hidden="true"></i>
-			<a class="twitter-link" href=""></a>
+			<a class="twitter-link" href="https://twitter.com/{{page.twitterhandle}}">@{{page.twitterhandle}}</a>
+			{% endif %}
 		</div>
+		
 		<div class="featured-face-tags">
 	      <i class="fa fa-tags" aria-hidden="true"></i>
+		  {% for tag in page.tags %}
+		  	<span class='my-tag tag-right-padded'>{{tag}}</span>
+		  {% endfor %}
 		</div>
-		<div class="featured-face-content"></div>
+		<div class="featured-face-content">{{page.content}}</div>
 		<!--
 			<div class="fb-comments" data-href="" data-numposts="5" data-width="100%"></div>
 			-->
