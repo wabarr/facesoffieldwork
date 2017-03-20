@@ -6,6 +6,7 @@ location: Mille-Logya, Ethiopia
 lat: 11.6
 lng: 40.86
 author: Andrew
+twitterhandle: wabarree
 youtube: "https://www.youtube.com/embed/j6R2Fj-Kt-8"
 alt-fb-share-img: http://i.imgur.com/bCk7V4C.jpg
 tags: ["paleontology", "paleoanthropology"]
