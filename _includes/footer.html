@@ -8,6 +8,7 @@
     </p>
 </footer>
 <script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
 
 <!-- Facebook -->
@@ -149,6 +150,14 @@ $( document ).ready(function() {
 	    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 	}
 	
+	$(".modal").modal({
+		complete: function() {
+			//remove the modal from the DOM after it has been opened so it only will get shown once
+			$("#modal-calltoaction").remove()
+		}
+	});
+	
+	
 	//put event on scroll to fire when a div is reached
 	if($("#load-more-content-trigger").length > 0){
 		$(window).on('scroll', function() {       
@@ -167,7 +176,9 @@ $( document ).ready(function() {
 					{% endif %}
 					postsDisplayed++;
 				}
-				
+				if(postsDisplayed === 6){
+					$('#modal-calltoaction').modal('open');
+				}
 		    }
 		});
 	}

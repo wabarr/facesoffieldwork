@@ -7,5 +7,34 @@ layout: default
   <div class="my-text-body">
     {{ content }}
   </div>
+  
+  <div id="modal-calltoaction" class="modal">
+	<article class="center-align">
+    	<div class="modal-content">
+			<div class="my-text-body">
+    			<h2>You made it this far.....</h2>
+				<div class="row">
+					{% assign counter = 1 %}
+					{% for post in site.posts %}
+						{% if post.imgurfilepath %}
+							<div class="col s2">
+								<img src='{{post.imgurfilepath | replace:".jpg","t.jpg"}}'>
+							</div>
+							{% assign counter = counter | plus: 1 %}
+						{% endif %}
+						{% if counter == 7 %}{% break %}{% endif %}
+					{% endfor %}
+				</div>
+  				<p>We want YOUR fieldwork photos and stories! Students, researchers, faculty....all are welcome!</p>
+				<p>We love personal reflections on what fieldwork means to you, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail).</p>
+  			{% include facebook_like.html %}
+    		</div>
+		</div>
+    	<div class="modal-footer">
+			<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+			<a href="/upload_image/?from=modalcalltoaction" class="waves-effect waves-green btn-flat">Share your story</a>
+    	</div>
+	</article>
+  </div>
 
 </article>
