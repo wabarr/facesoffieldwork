@@ -23,14 +23,13 @@ a h3 {
 	font-weight: bold;
 }
 
-.button, input[type="file"], input[type="button"]{
-	color:white;
-	background-color:#4db6ac;
-	border-radius:3px;
-	border-width:1px;
-	padding:10px 10px 10px 10px;
-	border-style:outset;
-	width:100%;
+.button, input[type="button"] {
+    background-color:rgba(0,0,0,0.1) ;
+    padding: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-color: #4db6ac;
+    border-image: initial;
 }
 
 a {
@@ -38,7 +37,7 @@ a {
 }
 
 .hidden {
-	visibility: hidden;
+	display: none;
 }
 
 .visible {
