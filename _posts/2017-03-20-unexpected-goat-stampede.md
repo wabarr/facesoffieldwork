@@ -6,6 +6,7 @@ location: Koobi Fora, Kenya
 lat: 4.31
 lng: 36.23
 author: Laurence
+twitterhandle: paleolau
 imgurfilepath: http://i.imgur.com/jKnUt6M.jpg
 alt-fb-share-img: http://i.imgur.com/a0ocbkf.jpg
 tags: ["paleoanthropology", "paleontology"]
