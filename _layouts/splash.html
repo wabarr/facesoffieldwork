@@ -17,7 +17,7 @@ layout: default
 					{% assign counter = 1 %}
 					{% for post in site.posts %}
 						{% if post.imgurfilepath %}
-							<div class="col s2">
+							<div class="col s4 m2">
 								<img src='{{post.imgurfilepath | replace:".jpg","t.jpg"}}'>
 							</div>
 							{% assign counter = counter | plus: 1 %}
