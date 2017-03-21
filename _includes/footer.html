@@ -151,6 +151,15 @@ $( document ).ready(function() {
 	}
 	
 	$(".modal").modal({
+		ready: function(){
+			{% if site.g_analytics %}
+			ga('send', {
+				hitType: 'event',
+				eventCategory: 'calltoaction',
+				eventAction: 'calltoaction-modal-loaded'
+			});
+			{% endif %}
+		},
 		complete: function() {
 			//remove the modal from the DOM after it has been opened so it only will get shown once
 			$("#modal-calltoaction").remove()
