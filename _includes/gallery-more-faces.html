@@ -2,7 +2,10 @@
 	{% for post in site.posts %}
 		{% if post.imgurfilepath %}
 		<div class="col s6">
-			<a class="gallery-link" href="{{post.url}}"><img src="{{post.imgurfilepath | replace: '.jpg', 'm.jpg'}}" /></a>
+			<a class="gallery-link" href="{{post.url}}">
+				<img src="{{post.imgurfilepath | replace: '.jpg', 'm.jpg'}}" />
+			{{post.author}} - {{post.title}}
+			</a>
 		</div>
 		{% cycle "", "</div><div class='row'>" %}
 		
