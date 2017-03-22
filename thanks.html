@@ -2,13 +2,15 @@
 layout: page
 ---
 
-<div class="my-text-body">
-	<h3>Thank you for submitting!</h3>
-	<p>We add new posts every couple of days. We will email you when your post goes live.</p>
+<div class="my-text-body post-container">
+	<div class="my-text-body">
+		<h3>Thank you for submitting!</h3>
+		<p>We add new posts every couple of days. We will email you when your post goes live.</p>
+	</div>
+	
+	<p>Please "like" our project on Facebook and follow us on twitter <a href="https://twitter.com/facesfieldwork">@facesfieldwork</a>. It helps us get the word out to more people!</p>
+	
+	{% include facebook_like.html %}
+	
+	<a href="/"><h3>See all faces <i class="fa fa-home" aria-hidden="true"></i></h3></a>
 </div>
-
-<p>Please "like" our project on Facebook and follow us on twitter @fieldworkfaces. It helps us get the word out to more people!</p>
-
-{% include facebook_like.html %}
-
-<a href="/"><h3>See all faces <i class="fa fa-home" aria-hidden="true"></i></h3></a>
