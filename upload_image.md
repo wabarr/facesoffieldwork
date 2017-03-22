@@ -82,6 +82,7 @@ redirect_from: /contribute/
 			<input type="text" name="website" placeholder="Personal research website link">
 			<input type="text" name="location" placeholder="Where was the photo taken?">
 			<input type="text" name="tags" placeholder="What scientific field? (e.g., ecology, geology, forestry, etc)">
+			<input type="text" name="post-title" placeholder="Suggested title for post (we may change this)">
 		    <textarea style="width: 100%; height: 150px;" name="the story" placeholder="What's the story of this photo"></textarea>
 			<input type="text" name="photo-link" type="hidden" id="imgurlink-form">
 			<input type="text" name="imgur-delete-hash" type="hidden" id="imgurdelete-form">
