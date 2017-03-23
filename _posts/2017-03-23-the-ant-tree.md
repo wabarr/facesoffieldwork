@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Ant Tree"
-date:   2017-03-15
+date:   2017-03-23
 location: Gombe National Park, Tanzania
 lat: -4.7
 lng: 29.62
