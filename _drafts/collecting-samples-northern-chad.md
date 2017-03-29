@@ -13,4 +13,4 @@ alt-fb-share-img: http://i.imgur.com/vQxSPGb.jpg
 tags: ["genetics","anthropology"]
 ---
 
-Collecting DNA samples from local people in northern Chad, 2005. 
+This photo is from a research trip collecting DNA samples from local people in northern Chad, 2005. Learn more about my work [here](https://en.wikipedia.org/wiki/Spencer_Wells).
