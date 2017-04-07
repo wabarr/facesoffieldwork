@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What you don't learn in class"
-date:   2017-03-31
+date:   2017-04-07
 location: Sunshine Coast, British Columbia
 lat: 49.57
 lng: -123.87
