@@ -24,12 +24,9 @@ a h3 {
 }
 
 .button, input[type="button"] {
-    background-color:rgba(0,0,0,0.1) ;
+	background-color:#4db6ac; 
     padding: 5px;
-    border-width: 3px;
-    border-style: outset;
-    border-color: #4db6ac;
-    border-image: initial;
+
 }
 
 a {
