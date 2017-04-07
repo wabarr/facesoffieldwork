@@ -3,6 +3,29 @@ layout: default
 ---
 <div style="display:none;" id="post-identifier"></div> <!--identifies this as a post for JS -->
 {% include post-skeleton.html %}
+	<div class="my-text-body post-container">
+	<article class="center-align">
+			<div class="my-text-body">
+    			<h2>We want to hear YOUR story!</h2>
+				<div class="row">
+					{% assign counter = 1 %}
+					{% for post in site.posts %}
+						{% if post.imgurfilepath %}
+							<div class="col s4">
+								<img src='{{post.imgurfilepath | replace:".jpg","b.jpg"}}'>
+							</div>
+							{% assign counter = counter | plus: 1 %}
+						{% endif %}
+						{% if counter == 7 %}{% break %}{% endif %}
+					{% endfor %}
+				</div>
+				<p>We love personal reflections on what fieldwork means to you, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail). Students, researchers....all are welcome!</p>
+		<div class="modal-footer">
+			<a href="/upload_image/" class="waves-effect waves-green btn-flat" style="background-color:#4db6ac; margin-bottom:10px;">Share your story</a>
+    		</div>
+		</div>
+	</article>
+</div>
 <h2 style="font-size: 30px;">More Faces of Fieldwork <i class="fa fa-arrow-down"></i></h2>
 {% include gallery-more-faces.html %}
 
