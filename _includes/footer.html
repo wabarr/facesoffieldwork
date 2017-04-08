@@ -1,10 +1,25 @@
 <footer class="my-footer z-depth-2">
     <p class="footer-p">
-		<a href="/about/" class="waves-effect waves-teal btn-flat"><i class="fa fa-question"></i></a>
-		<a href="{{site.contributeURL}}" class="waves-effect waves-teal btn-flat">Share your story</a>
-		<a href="/map/" class="waves-effect waves-teal btn-flat"><i class="fa fa-globe"></i></a>
-		<!-- <a href="https://twitter.com/{{ site.twitter_username }}"class="waves-effect waves-teal btn-flat my-twitter-link"><i class="fa fa-twitter"></i></a>
-		<a href="https://facebook.com/facesoffieldwork"class="waves-effect waves-teal btn-flat"><i class="fa fa-facebook"></i></a> -->
+		<div class="row">
+			<div class="col s4 m2">
+				<a href="/about/" class="waves-effect waves-teal btn-flat">About</a>
+			</div>
+			<div class="col s4 m2 push-s4">
+				<a href="/map/" class="waves-effect waves-teal btn-flat">Map View</a>
+			</div>
+			<div class="col s4 m2 pull-s4">
+				<a href="{{site.contributeURL}}" class="waves-effect waves-teal btn-flat">Contribute</a>
+			</div>
+			<div class="col s4 m2 push-s4">
+				<a href="/" class="waves-effect waves-teal btn-flat">Home</a>
+			</div>
+			<div class="col s4 m2 pull-s4">
+				<a href="/gallery/" class="waves-effect waves-teal btn-flat">Gallery</a>
+			</div>
+			<div class="col s4 m2">
+				<a href="http://twitter.com/facesfieldwork" class="waves-effect waves-teal btn-flat">Twitter</a>
+			</div>
+		</div>
     </p>
 </footer>
 <script type="text/javascript" src="{{ "/styles/jquery.js" | prepend: site.baseurl }}"></script>
