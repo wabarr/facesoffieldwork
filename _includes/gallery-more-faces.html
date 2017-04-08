@@ -3,8 +3,8 @@
 		{% if post.imgurfilepath %}
 		<div class="col s4">
 			<a class="gallery-link" href="{{post.url}}">
-				<img src="{{post.imgurfilepath | replace: '.jpg', 'b.jpg'}}" />
-			{{post.author}}
+				<img src="{{post.imgurfilepath | replace: '.jpg', 'm.jpg'}}" />
+			<span style="display:block;">{{post.author}}</span>
 			</a>
 		</div>
 		{% cycle "", "", "</div><div class='row'>" %}
