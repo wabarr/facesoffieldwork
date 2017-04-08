@@ -1,3 +1,9 @@
+h1[itemprop='headline'], .my-description {
+	margin:0;
+}
+
+
+
 .my-footer a {
 	width:100%;
 }
