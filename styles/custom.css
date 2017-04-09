@@ -14,17 +14,6 @@ input[type="button"], input[type="submit"] {
 	padding-right: 8px;
 }
 
-div.page_number{
-	margin-top:7px;
-}
-
-.pagination a {
-	color:black;
-}
-
-.row.pagination {
-	margin-bottom:0px;
-}
 
 a h3 {
 	color:black;
@@ -35,11 +24,6 @@ a h3 {
 	font-weight: bold;
 }
 
-.button, input[type="button"] {
-	background-color:#4db6ac; 
-    padding: 5px;
-
-}
 
 a {
 	color:#4db6ac;
