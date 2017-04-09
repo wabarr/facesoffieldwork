@@ -68,7 +68,7 @@ redirect_from: /contribute/
 			<input type="file" id="img-input" name="image" accept="image/*" style="padding-left:110px">
 		</div>
 		<div class="row">
-			<input type="button" id="submit-button" class="waves-effect waves-green btn-flat" style="background-color:#4db6ac;" value="upload image">
+			<input type="button" id="submit-button" class="waves-effect waves-green btn-flat teal lighten-3" value="upload image">
 		</div>
 		<div class="row" class="hidden" id="uploadprogress">
 			<i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>
@@ -89,7 +89,7 @@ redirect_from: /contribute/
 			<input type="hidden" name="_subject" value="New FOF submission!" />
 			<input type="text" name="_gotcha" style="display:none" />
 			<input type="hidden" name="_next" value="/thanks/" />
-		    <input class="waves-effect waves-green btn-flat" style="background-color:#4db6ac;" type="submit" value="Tell us your story"/>
+		    <input class="waves-effect waves-green btn-flat teal lighten-3" type="submit" value="Tell us your story"/>
 		</form>
 		<p style="font-size:50%" id = "imgurlink"></p>
 

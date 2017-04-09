@@ -2,7 +2,9 @@ h1[itemprop='headline'], .my-description {
 	margin:0;
 }
 
-
+input[type="button"], input[type="submit"] {
+	font-family: 'Share Tech Mono', monospace;
+}
 
 .my-footer a {
 	width:100%;
