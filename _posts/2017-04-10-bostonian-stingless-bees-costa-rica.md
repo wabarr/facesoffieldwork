@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "A Bostonian searches for stingless bees in Costa Rica"
-date:   2017-04-03
+date:   2017-04-10
 location: Costa Rica, Central Valley
 lat: 9.8
 lng: -84
 author: Rachael Bonoan
 twitterhandle: RachaelEBee
 imgurfilepath: http://i.imgur.com/UH7l70K.jpg
+gallery-img: http://i.imgur.com/YgzVIM7.jpg
+alt-fb-share-img: http://i.imgur.com/M2x3cmc.jpg
 tags: ["ecology"]
 ---
 	
