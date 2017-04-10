@@ -1,7 +1,7 @@
 <div class="row" >
 	{% for post in site.posts %}
 		{% if post.imgurfilepath %}
-		<div class="col s4">
+		<div class="col s12 m4">
 			<a class="gallery-link" href="{{post.url}}">
 				{% if post.gallery-img %}
 					<img src="{{post.gallery-img | replace: '.jpg', 'm.jpg'}}" />
@@ -12,8 +12,8 @@
 			<span style="display:block;">{{post.author}}</span>
 			</a>
 		</div>
+
 		{% cycle "", "", "</div><div class='row'>" %}
-		
 		{% endif %}
 	{% endfor %}
 </div>
