@@ -51,7 +51,7 @@ redirect_from: /contribute/
 
 <div class="my-text-body post-container">
 	<h2>We want to hear YOUR story, and see YOU in the field!</h2>
-	<p>We love personal reflections on what fieldwork means to fieldworkers, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail)!</p>
+	<p>We love personal reflections on what fieldwork means to you, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail)!</p>
 	<a href="/"><img src="{{site.default_share_image}}"/></a>
 </div>
 <div class="my-text-body post-container">
