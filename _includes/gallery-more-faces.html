@@ -3,7 +3,12 @@
 		{% if post.imgurfilepath %}
 		<div class="col s4">
 			<a class="gallery-link" href="{{post.url}}">
-				<img src="{{post.imgurfilepath | replace: '.jpg', 'm.jpg'}}" />
+				{% if post.gallery-img %}
+					<img src="{{post.gallery-img | replace: '.jpg', 'm.jpg'}}" />
+				{% else %}
+					<img src="{{post.imgurfilepath | replace: '.jpg', 'm.jpg'}}" />
+				{% endif %}
+				
 			<span style="display:block;">{{post.author}}</span>
 			</a>
 		</div>
