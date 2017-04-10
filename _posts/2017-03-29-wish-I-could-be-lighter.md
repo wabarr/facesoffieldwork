@@ -7,7 +7,7 @@ lat: 47.397
 lng: 22.89
 twitterhandle: corradiniandre
 author: Andrea
-imgurfilepath: http://i.imgur.com/7MZD0ie.jpg
+imgurfilepath: http://i.imgur.com/Mo5V4aG.jpg
 alt-fb-share-img: http://i.imgur.com/Ew8o1ud.jpg
 tags: ["wildlife ecology"]
 ---
