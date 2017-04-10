@@ -38,6 +38,13 @@ layout: null
   </url>
   
   <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/gallery/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>{{ site.url }}{{ site.baseurl }}/upload_image/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
