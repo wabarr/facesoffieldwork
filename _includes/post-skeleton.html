@@ -18,9 +18,10 @@
 		</div>
 		
 		<div class="featured-face-tags">
-	      <i class="fa fa-tags" aria-hidden="true"></i>
 		  {% for tag in page.tags %}
-		  	<span class='my-tag tag-right-padded'>{{tag}}</span>
+			<div class="chip">
+			    {{tag}}
+			  </div>
 		  {% endfor %}
 		</div>
 		<div class="featured-face-content">{{page.content}}</div>
