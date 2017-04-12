@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Where are the gorillas?"
+title: "I lost the gorillas..."
 date:   2017-04-12
 location: Volcanoes National Park, Rwanda
 lat: -1.52
