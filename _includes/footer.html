@@ -125,9 +125,9 @@ $( document ).ready(function() {
 		} else {
 			$(parentDiv + " .featured-face-twitter").html("");
 		}
-		$(parentDiv + " .featured-face-tags .my-tag").remove()
+		$(parentDiv + " .featured-face-tags .chip").remove()
 		$.each(post.tags, function(index,value){
-			$(parentDiv + " .featured-face-tags").append("<span class='my-tag tag-right-padded'>" + value + "</span>")
+			$(parentDiv + " .featured-face-tags").append("<div class='chip'>" + value + "</div>")
 		});
 		//make the div visible
 		$(parentDiv).show();
