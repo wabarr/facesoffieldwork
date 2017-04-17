@@ -11,4 +11,4 @@ gallery-img: http://i.imgur.com/PbTUjGM.jpg
 tags: ["paleoanthroplogy", "archaeology"]
 ---
 	
-In the desert, inevitably there comes a time to shake out the dust. 
+This photo was taken after about six weeks of paleoanthropological fieldwork in the desert of northwestern Kenya in a famous area known as Koobi Fora. In Koobi Fora, inevitably there comes a time to shake out the dust!
