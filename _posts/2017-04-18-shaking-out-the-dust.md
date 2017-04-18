@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shaking out the dust!"
-date: 2017-04-11
+date: 2017-04-18
 location: "Koobi Fora, Kenya"
 lat: 4.23
 lng: 36.26
