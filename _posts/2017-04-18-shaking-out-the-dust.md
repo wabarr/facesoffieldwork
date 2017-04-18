@@ -11,4 +11,6 @@ gallery-img: http://i.imgur.com/PbTUjGM.jpg
 tags: ["paleoanthroplogy", "archaeology"]
 ---
 	
-This photo was taken after about six weeks of paleoanthropological fieldwork in the desert of northwestern Kenya in a famous area known as Koobi Fora. In Koobi Fora, inevitably there comes a time to shake out the dust!
+*Note from photographer*: This photo was taken after six long weeks of paleoanthropological fieldwork in the desert of northwestern Kenya. Russ didn't know he was being photographed in this photo...it was a candid capture when we stopped our caravan to deal with a vehicle engine problem. 
+
+In Koobi Fora, inevitably there comes a time to shake out the dust!
