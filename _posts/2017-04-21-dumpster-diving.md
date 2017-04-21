@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dumpster diving!"
-date: 2017-04-18
+date: 2017-04-21
 location: The Altiplano, Peru
 lat: -16.4
 lng: -69.85
