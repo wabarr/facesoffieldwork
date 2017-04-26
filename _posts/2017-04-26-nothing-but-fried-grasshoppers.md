@@ -8,6 +8,7 @@ lng: 30.028
 author: Cory Whitney
 imgurfilepath: http://i.imgur.com/lwrlaM2.jpg
 gallery-img: http://i.imgur.com/RDPXIEG.jpg
+alt-fb-share-img: http://i.imgur.com/Oxdh9ey.jpg
 twitterhandle: corianderapples
 tags: ["botany"]
 ---
