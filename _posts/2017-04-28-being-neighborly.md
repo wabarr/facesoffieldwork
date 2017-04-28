@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Just being neighborly!"
-date: 2017-04-18
+date: 2017-04-28
 location: "Petra, Jordan"
 twitterhandle: beccabigg
 lat: 30.328611
