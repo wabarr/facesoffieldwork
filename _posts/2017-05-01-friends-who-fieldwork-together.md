@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Friends who fieldwork together..."
-date: 2017-04-18
+date: 2017-05-01
 location: "Wamba, Luo Scientific Reserve, Democratic Republic of the Congo"
 lat: 0.267
 lng: 22.549
+twitterhandle: kirstyegraham
 author: "Heungjin, Nahoko, Kirsty, Ulrich"
 imgurfilepath: http://i.imgur.com/2cSs2vU.jpg
 alt-fb-share-img: http://i.imgur.com/weywfpO.jpg
