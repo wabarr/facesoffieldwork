@@ -17,12 +17,12 @@ layout: default
 					{% assign counter = 1 %}
 					{% for post in site.posts %}
 						{% if post.imgurfilepath %}
-							<div class="col s4 m2">
+							<div class="col s4">
 								<img src='{{post.imgurfilepath | replace:".jpg","b.jpg"}}'>
 							</div>
 							{% assign counter = counter | plus: 1 %}
 						{% endif %}
-						{% if counter == 7 %}{% break %}{% endif %}
+						{% if counter == 4 %}{% break %}{% endif %}
 					{% endfor %}
 				</div>
 				<p>We love personal reflections on what fieldwork means to you, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail). Students, researchers....all are welcome!</p>
