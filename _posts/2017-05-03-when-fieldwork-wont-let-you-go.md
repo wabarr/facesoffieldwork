@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "When fieldwork won't let you go"
-date: 2017-04-21
+date: 2017-05-03
 location: Karonga, Malawi
 lat: -9.96
 lng: 33.92
 twitterhandle: 
 author: Jessica Thompson
-imgurfilepath: http://i.imgur.com/fOzsSpX.jpg
+imgurfilepath: http://i.imgur.com/gqoUHMH.jpg
+gallery-img: http://i.imgur.com/fOzsSpX.jpg
 alt-fb-share-img: http://i.imgur.com/6pajJQu.jpg
 tags: ["Archaeology"]
 ---
