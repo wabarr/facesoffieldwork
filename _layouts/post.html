@@ -7,18 +7,6 @@ layout: default
 	<article class="center-align">
 			<div class="my-text-body">
     			<h2>We want to hear YOUR story!</h2>
-				<div class="row">
-					{% assign counter = 1 %}
-					{% for post in site.posts %}
-						{% if post.imgurfilepath %}
-							<div class="col s4">
-								<img src='{{post.imgurfilepath | replace:".jpg","b.jpg"}}'>
-							</div>
-							{% assign counter = counter | plus: 1 %}
-						{% endif %}
-						{% if counter == 7 %}{% break %}{% endif %}
-					{% endfor %}
-				</div>
 				<p>We love personal reflections on what fieldwork means to you, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail). Students, researchers....all are welcome!</p>
 		<div>
 			<a href="/upload_image/" class="waves-effect waves-green btn-flat teal lighten-3" >Share your story</a>
