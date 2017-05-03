@@ -56,7 +56,7 @@ redirect_from: /contribute/
 </div>
 <div class="my-text-body post-container">
 	<h2>How to contribute</h2>
-	<p>The first step is uploading your photo. After you upload, we will show you a preview of your photo and then you can tell us your story.</p>
+	<p>The first step is uploading your photo that clearly shows your face in the field (see the title of this website ;-). After you upload, we will show you a preview of your photo and then you can tell us your story.</p>
 
 	<p>The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
 
