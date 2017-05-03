@@ -9,7 +9,7 @@ twitterhandle:
 author: Jessica Thompson
 imgurfilepath: http://i.imgur.com/gqoUHMH.jpg
 gallery-img: http://i.imgur.com/fOzsSpX.jpg
-alt-fb-share-img: http://i.imgur.com/6pajJQu.jpg
+alt-fb-share-img: http://i.imgur.com/kNcJPz7.jpg
 tags: ["Archaeology"]
 ---
 	
