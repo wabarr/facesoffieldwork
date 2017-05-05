@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dumpster diving!"
+title: "Dumpster diving for fossils!"
 date: 2017-04-21
 location: The Altiplano, Peru
 lat: -16.4
