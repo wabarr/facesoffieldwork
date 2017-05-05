@@ -6,7 +6,7 @@ location: Coachella Valley, California
 lat: 33.84
 lng: -116.32
 author: Jennifer
-imgurfilepath: http://i.imgur.com/Dxerlld.jpg
+imgurfilepath: http://i.imgur.com/BCJY5M6.jpg
 alt-fb-share-img: http://i.imgur.com/LXayBfW.jpg
 tags: ["ecological physiology"]
 ---

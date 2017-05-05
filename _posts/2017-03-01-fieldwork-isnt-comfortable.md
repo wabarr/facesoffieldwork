@@ -6,7 +6,7 @@ location: 	Pine Island Sound, Florida
 lat: 26.5704844
 lng: -82.2232696
 author: Sarah
-imgurfilepath: http://i.imgur.com/p05kVX8.jpg
+imgurfilepath: http://i.imgur.com/vCe8bhc.jpg
 tags: ["fishing"]
 ---
 
