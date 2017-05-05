@@ -7,9 +7,9 @@ lat:
 lng: 
 twitterhandle: 
 author: 
-imgurfilepath: 
-alt-fb-share-img: 
-gallery-img: 
+imgurfilepath: http://i.imgur.com/
+alt-fb-share-img: http://i.imgur.com/
+gallery-img: http://i.imgur.com/
 tags: [""]
 ---
 	
