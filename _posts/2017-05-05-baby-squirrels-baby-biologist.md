@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Baby Squirrels and a Baby Biologist"
-date: 2017-04-27
+date: 2017-05-05
 location: Yukon, Canada
 lat: 60.75
 lng: -139.5
