@@ -1,3 +1,12 @@
+#gallery-toggle-menu a {
+	color:#A9A9A9;
+	padding: 2px 0px 2px 0px;
+}
+
+#gallery-toggle-menu a:hover {
+	background-color:transparent;
+}
+
 div.col.gallerycol {
 	padding: 0px 3px 0px 3px;
 }
