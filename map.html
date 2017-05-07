@@ -1,10 +1,12 @@
 ---
-layout: splash
+layout: default
 alt-fb-share-img: http://i.imgur.com/n9PG2DG.jpg
 include-gmaps-js: true
 ---
 
+<div class="my-text-body post-container">
   <div id="map" style="width:100%"></div>
+</div>
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script>
     var map = new GMaps({
@@ -43,4 +45,3 @@ include-gmaps-js: true
  
 	
 {% include facebook_like.html %}
-<a href="/"><h3>See all faces <i class="fa fa-home" aria-hidden="true"></i></h3></a>
