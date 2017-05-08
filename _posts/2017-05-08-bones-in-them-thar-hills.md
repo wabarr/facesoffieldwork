@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "There's bones in them thar hills!"
-date: 2017-05-05
+date: 2017-05-08
 location: Judith River Formation, Montana
 lat: 47.62
 lng: -109.66
