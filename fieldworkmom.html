@@ -4,10 +4,10 @@ alt-fb-share-img: http://i.imgur.com/NN3Bkn7.jpg
 ---
 
 <article>
-	<div class="my-text-body">
+	<div class="my-text-body post-container">
 		<div class="row" >
-			<h2>Happy Mother's Day!!</h2>
-			<p>Check out <a href="http://twitter.com/hashtag/naturemom">#naturemom</a>, <a href="http://twitter.com/hashtag/fieldworkmom">#fieldworkmom</a>, and <a href="http://twitter.com/hashtag/pregnantinthefield">#pregnantinthefield</a></p>
+			<h1>Happy Mother's Day to all you Fieldwork Moms!</h1>
+			<p>Check out <a href="http://twitter.com/hashtag/naturemom">#naturemom</a> and <a href="http://twitter.com/hashtag/pregnantinthefield">#pregnantinthefield</a> on twitter!</p>
 			{% for post in site.posts %}
 				{% if post.fieldworkmom %}
 					{% if post.imgurfilepath %}
@@ -29,3 +29,5 @@ alt-fb-share-img: http://i.imgur.com/NN3Bkn7.jpg
 		
 	</div>
 </article>
+<h2 style="font-size: 30px;">Gallery <i class="fa fa-arrow-down"></i></h2>
+{% include gallery-more-faces.html %}
