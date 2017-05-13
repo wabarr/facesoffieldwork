@@ -6,6 +6,7 @@ location: Laikipia District, Kenya
 lat: 0.341
 lng: 36.795
 author: Briana
+fieldworkmom: yes
 imgurfilepath: http://i.imgur.com/Pv4knxV.jpg
 alt-fb-share-img: http://i.imgur.com/6yM9bEx.jpg
 tags: ["anthropology"]
