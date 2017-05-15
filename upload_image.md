@@ -49,18 +49,10 @@ redirect_from: /contribute/
 	});
 </script>
 
-<div class="my-text-body post-container">
-	<h2>We want to hear YOUR story, and see YOU in the field!</h2>
-	<p>We love personal reflections on what fieldwork means to you, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail)!</p>
-	<a href="/"><img src="{{site.default_share_image}}"/></a>
-</div>
-<div class="my-text-body post-container">
-	<h2>How to contribute</h2>
-	<p>The first step is uploading your photo that clearly shows your face in the field (see the title of this website ;-). After you upload, we will show you a preview of your photo and then you can tell us your story.</p>
 
-	<p>The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
-
-	<p>Note: by uploading your image here you indicate that either you took the photo personally or that you hold the copyright to the image and that you wish to share it publicly.</p>
+<div class="my-text-body post-container">
+	<h2>Submit your photo and story</h2>
+	
 	<div id="failureupload" class="error"></div>
 	<div id="successupload"></div>
 	<form id="imguploadform" method="POST" enctype="multipart/form-data">
@@ -89,11 +81,16 @@ redirect_from: /contribute/
 			<input type="hidden" name="_subject" value="New FOF submission!" />
 			<input type="text" name="_gotcha" style="display:none" />
 			<input type="hidden" name="_next" value="/thanks/" />
-		    <input class="waves-effect waves-green btn-flat teal lighten-3" type="submit" value="Tell us your story"/>
+		    <input class="waves-effect waves-green btn-flat teal lighten-3" type="submit" value="Submit"/>
 		</form>
 		<p style="font-size:50%" id = "imgurlink"></p>
 
 	</div>
+	<p>The first step is uploading your photo that clearly shows your face in the field (see the title of this website ;-). After you upload, we will show you a preview of your photo and then you can tell us your story.</p>
+
+	<p>The photo should be square, and the resolution should be at least 1024 x 1024. Maximum file size is 10mb.</p>
+
+	<p>Note: by uploading your image here you indicate that either you took the photo personally or that you hold the copyright to the image and that you wish to share it publicly.</p>
 
 </div>
 
