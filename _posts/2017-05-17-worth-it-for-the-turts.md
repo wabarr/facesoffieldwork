@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Worth it for the turts!"
-date: 2017-05-11
+date: 2017-05-17
 location: Hamilton, Ontario Canada
 lat: 43.26
 lng: -80.21
 author: Morgan Piczak
 imgurfilepath: http://i.imgur.com/IFAXsJu.jpg
-alt-fb-share-img: http://i.imgur.com/
+alt-fb-share-img: http://i.imgur.com/c4MsH7x.jpg
 tags: ["ecology"]
 ---
 	
