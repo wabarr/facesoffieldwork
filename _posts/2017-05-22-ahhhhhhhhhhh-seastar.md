@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Whaaaaaaaaaaa! A seastar!"
-date: 2017-05-17
+title: "Ahhhhhhhhhhh! A seastar!"
+date: 2017-05-22
 location: Quadra Island, British Columbia
 lat: 50.15
 lng: -125.4
