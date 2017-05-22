@@ -3,7 +3,7 @@ layout: post
 title: "Of Bogs and Berries"
 date: 2017-05-20
 location: Fairbanks, Alaska
-lat: 64.83
+lat: 64.83b
 lng: -147.8
 twitterhandle: LindseyViann
 author: Lindsey Parkinson
