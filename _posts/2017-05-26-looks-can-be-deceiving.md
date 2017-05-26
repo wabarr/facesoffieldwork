@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Looks can be deceiving"
-date: 2017-05-22
+date: 2017-05-26
 location: Koobi Fora, Kenya
 lat: 4.21
 lng: 36.23
