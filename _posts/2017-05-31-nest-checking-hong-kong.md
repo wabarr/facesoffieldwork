@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nest Checking in Hong Kong"
-date: 2017-05-24
+date: 2017-05-31
 location: Lamma Island, Hong Kong
 lat: 
 lng: 
