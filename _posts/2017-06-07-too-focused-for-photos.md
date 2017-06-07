@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Too focused for photos!"
-date: 2017-05-31
+date: 2017-06-07
 location: Saginaw Bay, Lake Huron
 lat: 43.83
 lng: -83.95
