@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Just Apeing Around"
-date: 2017-05-01
+date: 2017-06-09
 location: Budongo Forest Reserve, Uganda
 lat: 1.75
 lng: 21.33
