@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Paleo Workout"
-date: 2017-06-04
+date: 2017-06-12
 location: Grand Staircase Escalante National Monument
 lat: 37.35
 lng: -111.07
