@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Being a plant doctor - it's all about the little things (fungi, bacteria, viruses...)"
-date: 2017-06-08
+date: 2017-06-14
 location: UF-IFAS Plant Diagnostic Center teaching garden
 lat: 29.64
 lng: -82.36
