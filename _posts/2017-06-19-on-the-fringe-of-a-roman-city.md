@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On the fringe of a Roman city"
-date: 2017-06-08
+date: 2017-06-19
 location: "Aquileia"
 lat: 45.77
 lng: 13.35
