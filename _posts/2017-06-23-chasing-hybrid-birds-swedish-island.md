@@ -13,7 +13,7 @@ tags: [	"ecology", "evolution", "ornithology" ]
 ---
 	
 	
-It is now the 5th year that [Eryn McFarlane](https;//twitter.com/ErynMcFarlane) and I have been running together through the woods of the island of Öland, Sweden, to check nestboxes and monitor two hybridising species of small birds: collared and pied flycatchers. 
+It is now the 5th year that [Eryn McFarlane](https://twitter.com/ErynMcFarlane) and I have been running together through the woods of the island of Öland, Sweden, to check nestboxes and monitor two hybridising species of small birds: collared and pied flycatchers. 
 
 This year again the Qvarnström Lab ringed, sampled and measured thousands of adults and nestlings, thanks to two amazing field crews. We are studying how newly formed species interact when their range overlap after long periods of evolution in isolation, and how the climate affects these interactions.
 
