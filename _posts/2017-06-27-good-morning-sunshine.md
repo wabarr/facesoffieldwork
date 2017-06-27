@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Good morning sunshine!"
-date: 2017-06-26
+date: 2017-06-27
 location: Khumbu Glacier, Nepal
 lat: 27.968
 lng: 86.7982142
