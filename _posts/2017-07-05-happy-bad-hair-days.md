@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Happy bad hair days "
-date: 2017-07-03
+date: 2017-07-05
 location: Lake Tanganyika
 lat: -6.07
 lng: 27.89
