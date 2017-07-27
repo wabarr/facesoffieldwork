@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I like to hang out in the jungle..."
-date: 2017-07-22
+date: 2017-07-25
 location: Tambopata, Madre de Dios, Peru
 lat: -12.1804961
 lng: -72.68
