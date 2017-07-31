@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Andean landslides"
-date: 2017-07-22
+date: 2017-07-31
 location: San Pedro, Kosñipata Valley, Peru
 lat: 
 lng: 
