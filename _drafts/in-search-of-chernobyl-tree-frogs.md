@@ -8,7 +8,7 @@ lng: 30.09
 twitterhandle: 
 author: Germán Orizaola 
 imgurfilepath: http://i.imgur.com/4yG9Pxa.jpg
-alt-fb-share-img: 
+alt-fb-share-img: http://i.imgur.com/NqA72xC.jpg
 tags: ["ecology"]
 ---
 
