@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "In search of Chernobyl treefrogs"
-date: 2017-07-31
+date: 2017-08-09
 location: Chernobyl Exclusion Zone, Ukraine 
 lat: 51.39
 lng: 30.09
