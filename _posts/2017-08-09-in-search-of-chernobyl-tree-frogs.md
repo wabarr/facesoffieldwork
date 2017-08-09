@@ -5,7 +5,7 @@ date: 2017-08-09
 location: Chernobyl Exclusion Zone, Ukraine 
 lat: 51.39
 lng: 30.09
-twitterhandle: 
+twitterhandle: GOrizaola
 author: Germán Orizaola 
 imgurfilepath: http://i.imgur.com/4yG9Pxa.jpg
 alt-fb-share-img: http://i.imgur.com/NqA72xC.jpg
