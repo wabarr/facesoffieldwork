@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When fieldwork is family time - cave surveys for endangered bats"
-date: 2017-08-26
+date: 2017-08-30
 location: Nacanacagi Cave, Vanua Levu, Fiji
 lat: 
 lng: 
