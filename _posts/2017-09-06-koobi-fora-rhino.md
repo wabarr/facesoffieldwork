@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Koobi Fora rhino"
-date: 2017-08-26
+date: 2017-09-06
 location: Lake Turkana, Kenya
 lat: 
 lng: 
 twitterhandle: ashleyshammond
 author: Ashley S. Hammond
 imgurfilepath: http://i.imgur.com/F9NcqAL.jpg
-alt-fb-share-img: http://i.imgur.com/F9NcqAL.jpg
+alt-fb-share-img: https://i.imgur.com/AH1qdJY.jpg
 tags: ["paleontology","paleoanthropology"]
 ---
 	
