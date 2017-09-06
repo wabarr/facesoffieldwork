@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Koobi Fora Rhinoceros"
+title: "Koobi Fora rhino"
 date: 2017-08-26
 location: Lake Turkana, Kenya
 lat: 
