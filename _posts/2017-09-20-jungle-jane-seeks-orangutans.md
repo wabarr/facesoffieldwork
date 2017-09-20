@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jungle Jane Seeks Orangutans"
-date: 2017-09-18
+date: 2017-09-20
 location: Gunung Palung National Park
 lat: 
 lng: 
