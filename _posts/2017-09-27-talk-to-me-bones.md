@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Talk to me, bones..."
-date: 2017-09-18
+date: 2017-09-27
 location: Telavi, eastern Georgia
 lat: 
 lng: 
