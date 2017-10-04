@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Uncovering ancient stories "
-date: 2017-09-18
+date: 2017-10-04
 location: Tlailotlacan Site at Teotihuacan, Mexico
 author: Jorge N. Archer-Velasco
 imgurfilepath: https://i.imgur.com/TPc3xZO.jpg
