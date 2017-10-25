@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hawaiian boar bait"
-date: 2017-09-30
+date: 2017-10-25
 location: Hawaii
 twitterhandle: RitzenResearch
 author: Cari Ritzenthaler
