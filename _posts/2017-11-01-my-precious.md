@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My precious..."
-date: 2017-10-15
+date: 2017-11-01
 location: Tropical peat-draining river, Sarawak, Malaysia (Borneo!)
 author: Nastassia Denis
 imgurfilepath: https://i.imgur.com/BQBcCY0.jpg
