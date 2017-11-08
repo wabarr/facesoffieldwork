@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where are the monkeys?"
-date: 2017-10-19
+date: 2017-11-08
 location: Diani Beach, Kenya
 author: Sema
 twitterhandle: semaylmz
