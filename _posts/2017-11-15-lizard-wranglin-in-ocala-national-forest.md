@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lizard Wranglin' in Ocala National Forest"
-date: 2017-10-31
+date: 2017-11-15
 location: Ocala National Forest, FL
 twitterhandle: morpho_herp
 author: Chase Kinsey
