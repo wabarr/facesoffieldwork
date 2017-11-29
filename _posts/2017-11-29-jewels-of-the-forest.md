@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jewels of the Forest"
-date: 2017-11-17
+date: 2017-11-29
 location: Goodwin State Forest, Hampton, CT
 twitterhandle: FishroomSci
 author: Deb Field
