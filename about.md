@@ -3,16 +3,15 @@ layout: page
 ---
 
 <div class="my-text-body post-container">
-	<h2>FOF Origin Story</h2>
+	<h2>Scientists are people too!</h2>
 	<div class="row">
 		<div class="col s12">
-			<p>Faces of Fieldwork highlights researchers doing sometimes unglamorous work. FOF is gathering personal reflections on what fieldwork means to fieldworkers, as well as amusing anecdotes of fieldwork gone wrong (#fieldworkfail)!</p>
+			<p>At Faces of Fieldwork, we believe that public trust in science increases when people understands who we are and what we do. That's why we created this site, to show the good, the bad, and the ugly of scientists doing fieldwork.</p>
 		</div>
+	</div>
+	<div class="row">
 		<div class="col s12">
-			<img src="http://i.imgur.com/IENQGZE.jpg">
-		</div>
-		<div class="col s12">
-			<p>FOF began during a long drive in northwestern Kenya. At a rest-stop, I happened to look at myself in the side mirror and noted that my field beard was looking particularly grizzly. I posted this photo on Facebook with the caption "Faces of Fieldwork", and the rest is history.</p>
+			<img src="https://i.imgur.com/yprmlSw.jpg">
 		</div>
 	</div>
 </div>
