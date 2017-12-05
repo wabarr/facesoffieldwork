@@ -6,7 +6,7 @@ layout: page
 	<h2>Scientists are people too!</h2>
 	<div class="row">
 		<div class="col s12">
-			<p>At Faces of Fieldwork, we believe that public engagement with science increases when people understand who we are and what we do. That's why we created this site, to show the good, the bad, and the ugly of scientists doing fieldwork.</p>
+			<p>At Faces of Fieldwork, we believe that public engagement with science increases when people understand who we are and what we do. That's why we created this site: to show the good, the bad, and the ugly of real scientists doing real fieldwork.</p>
 			<p><a href='/upload_image/'>Tell us YOUR fieldwork story!</a></p>
 		</div>
 	</div>
