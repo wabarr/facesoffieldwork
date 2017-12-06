@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Archaeology of Conquest and Conversion"
-date: 2017-12-05
+date: 2017-12-06
 location: Chicha-Soras Valley, Peru
 twitterhandle: ScottiNorman
 author: Scotti Norman
