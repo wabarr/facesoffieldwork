@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Snake charming for environmental justice"
-date: 2017-12-05
+date: 2017-12-13
 location: Cusuco National Park, Honduras
 twitterhandle: becky_outside
 author: Becky Friesen
