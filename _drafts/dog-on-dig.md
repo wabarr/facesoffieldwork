@@ -1,0 +1,17 @@
+---
+layout: post
+title: "So a dog walks into a dig....."
+date: 2017-11-17
+location: Central Texas
+author: Hannah Keller
+imgurfilepath: https://i.imgur.com/ncUJ1Wy.jpg
+alt-fb-share-img: https://i.imgur.com/ncUJ1Wy.jpg
+tags: ["Archaeology"]
+gallery-img: https://i.imgur.com/W6uKeUy.jpg
+---
+
+	
+I'm an archaeologist, with a focus in zooarchaeology and the Pleistocene for my Master's degree. Before I started my Master's, I worked at several sites in Central Texas to gain field experience. One time, another student brought his dog. The excavation was on a farm, in the middle of a goat pen. After tearing around excitedly for some time, the dog became tired and came over to hang out with us as we dug. At some point he decided to use my back as a pillow, trapping me in that position. Everyone else onsite thought this was hilarious and began snapping photos. 
+
+
+Read more about my work [on my website](https://postcardsfromanarchaeologist.blogspot.com/).
