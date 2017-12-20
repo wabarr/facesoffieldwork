@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Sleeping on Rocks for a Month Changed My Life as an Archaeologist"
-date: 2017-12-19
+date: 2017-12-20
 location: Orkney Islands, Scotland
 twitterhandle: ArchaeologyFitz
 author: Alex Fitzpatrick
