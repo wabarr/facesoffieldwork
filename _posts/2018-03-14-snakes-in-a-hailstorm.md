@@ -5,7 +5,8 @@ date: 2018-03-14
 location: Logan, Utah, USA
 twitterhandle: am_durso
 author: Andrew Durso
-imgurfilepath: https://i.imgur.com/dFn0lzO.jpg
+imgurfilepath: https://i.imgur.com/QSWbrJE.jpg
+alt-fb-share-img: https://i.imgur.com/fFCzBkH.jpg
 tags: ["ecology", "herpetology"]
 ---
 	
