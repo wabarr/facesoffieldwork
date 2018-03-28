@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding Terretorial Development in Italy"
+title: "Understanding Territorial Development in Italy"
 date: 2018-03-28
 location: Cairano, Italy
 twitterhandle: LucieBoissenin
